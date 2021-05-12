@@ -89,7 +89,7 @@ show_related = {docs = true, page = false, post = true, project = true, publicat
 
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "silas.kieser@unige.ch"
-phone = "+41 22 379 52 42"
+phone = ""
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
@@ -125,10 +125,10 @@ contact_links = [
 ############################
 
 # Default image for social sharing and search engines. Place image in `static/media/` folder and specify image name here.
-sharing_image = ""
+sharing_image = "Tree.png"
 
 # Twitter username (without @). Used when a visitor shares your site on Twitter.
-twitter = ""
+twitter = "SilasKieser"
 
 ############################
 ## Regional Settings
@@ -151,7 +151,7 @@ address_format = "en-us"
 main_menu = {align = "l", show_logo = true, highlight_active_link = true, show_language = false}
 
 # Show estimated reading time for posts? (true/false)
-reading_time = true
+reading_time = false
 
 # Display next/previous section pager? (true/false)
 section_pager = false
@@ -165,7 +165,7 @@ sharing = true
 copyright_license = {enable = false, allow_derivatives = false, share_alike = true, allow_commercial = false, notice = "This work is licensed under {license}"}
 
 # Highlight the site author (superuser) in author lists? (true/false)
-highlight_superuser = false
+highlight_superuser = true
 
 # Link authors to their profile page? (true/false)
 link_authors = true
@@ -182,7 +182,7 @@ plugins_js  = []
 # An avatar can be uploaded as an image named `avatar` to each user's profile or fetched from Gravatar.com.
 [avatar]
   # Get user avatars from Gravatar.com? (true/false)
-  gravatar = false
+  gravatar = true
 
   # Choose a shape for avatar images. Options: circle, square.
   shape = "circle"
@@ -296,4 +296,4 @@ plugins_js  = []
 ## Icon Pack Extensions
 ############################
 [icon.pack]
-  ai = false  # Academicons icon pack https://jpswalsh.github.io/academicons/
+  ai = true  # Academicons icon pack https://jpswalsh.github.io/academicons/
