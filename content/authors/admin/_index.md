@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Embedded Bioinformatician and PhD candidate
+role: Metagenome researcher
 
 # Organizations/Affiliations
 organizations:
@@ -18,7 +18,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: Husband, Father & Embedded bioinformatician PhD candidate
+bio: Husband, Father & Metagenome researcher
 
 
 
@@ -29,6 +29,9 @@ interests:
 
 education:
   courses:
+  - course: PhD
+    institution: Université de Genève
+    year: 2021
   - course: Bioengineer
     institution: École polytechnique fédérale de Lausanne
     year: 2017
@@ -47,7 +50,7 @@ social:
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/SilasKieser
-- icon: google-scholar
+- icon: "google-scholar"
   icon_pack: ai
   link: https://scholar.google.ch/citations?user=73hLKTUAAAAJ
 - icon: github
@@ -70,7 +73,8 @@ email: ""
 # - Visitors
 ---
 
-I'm studying the link between alterations in the gut microbiota and the glucose homeostasis in mice using metagenomics and other omics-approaches.
-An internship at Nestlé research center allowed me to learn from experts about children gut microbiota and to realize my first publications.
-Now, I'm doing a PhD at University of Geneva in the lab of Prof. Mirko Trajkovski and are co-supervised by Prof. Evgeny Zdobnov.
-I like to cook with my wife and to dance Salsa, but not both on the same time.
+I'm fascinated by the microbiome and search for ways to harness it to make us healthier.
+When I learned how complicated it was to sequence and the first human genome, I found metagenomics, the idea of sequencing thousand of microbial genomes at once mind-boggling. I'm happy to be part of this endeavor to resolve these enormous puzzles and recover genomes from complicated metagenomes.
+I'm the lead developer of the tool called metagenome-atlas that has the goal to make genome-resolved metagenomics easy and to allow to start in three commands.
+I'm finishing my PhD at the University of Geneva in the lab of Prof. Mirko Trajkovski, co-supervised by Prof. Evgeny Zdobnov.
+Besides microbiome analysis at the computer, I'm also hands-on involved by changing the diapers of my two children. If there is time, I like to cook with my wife and to dance Salsa, but not both on the same time.
