@@ -75,6 +75,5 @@ email: ""
 
 I'm fascinated by the microbiome and search for ways to harness it to make us healthier.
 When I learned how complicated it was to sequence and the first human genome, I found metagenomics, the idea of sequencing thousand of microbial genomes at once mind-boggling. I'm happy to be part of this endeavor to resolve these enormous puzzles and recover genomes from complicated metagenomes.
-I'm the lead developer of the tool called metagenome-atlas that has the goal to make genome-resolved metagenomics easy and to allow to start in three commands.
 I'm finishing my PhD at the University of Geneva in the lab of Prof. Mirko Trajkovski, co-supervised by Prof. Evgeny Zdobnov.
-Besides microbiome analysis at the computer, I'm also hands-on involved by changing the diapers of my two children. If there is time, I like to cook with my wife and to dance Salsa, but not both on the same time.
+Besides microbiome analysis at the computer, I'm also hands-on involved by changing the diapers of my two children.
