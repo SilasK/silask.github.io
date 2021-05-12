@@ -4,7 +4,7 @@
 
 widget = "pages"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
+active = false  # Activate this widget? true/false
 weight = 70  # Order that this section will appear.
 
 title = "Recent & Upcoming Talks"
@@ -32,7 +32,7 @@ subtitle = ""
     exclude_featured = false
     exclude_past = false
     exclude_future = false
-    
+
 [design]
   # Toggle between the various page layout types.
   #   1 = List
