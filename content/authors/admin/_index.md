@@ -50,12 +50,12 @@ social:
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/SilasKieser
-- icon: "google-scholar"
-  icon_pack: ai
-  link: https://scholar.google.ch/citations?user=73hLKTUAAAAJ
 - icon: github
   icon_pack: fab
   link: https://github.com/silask
+- icon: "google-scholar"
+  icon_pack: "ai"
+  link: https://scholar.google.ch/citations?user=73hLKTUAAAAJ
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
