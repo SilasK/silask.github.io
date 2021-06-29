@@ -61,16 +61,13 @@ social:
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
 # - icon: cv
 #   icon_pack: ai
-#   link: files/cv.pdf
+#   link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "silas.kieser@gmail.com"
 
-# Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.  
-# user_groups:
-# - Researchers
-# - Visitors
+# Highlight the author in author lists? (true/false)
+highlight_name: false
 ---
 
 I'm fascinated by the microbiome and search for ways to harness it to make us healthier.
