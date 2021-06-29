@@ -3,7 +3,7 @@
 set -e
 
 commit_msg=$(git log -1 --pretty=%B)
-echo "last message was "$commit_msg
+echo "last message was "\"$commit_msg\"
 
 echo Build
 
@@ -23,5 +23,5 @@ git commit -m"$commit_msg"
 
 echo "Deploy"
 
-git push origin master
+git push origin main
 cd ..
