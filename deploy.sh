@@ -25,3 +25,5 @@ echo "Deploy"
 
 git push origin main
 cd ..
+
+git add public
