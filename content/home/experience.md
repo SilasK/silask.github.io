@@ -2,7 +2,7 @@
 # An instance of the Experience widget.
 # Documentation: https://wowchemy.com/docs/page-builder/
 widget: experience
-active: false
+active: true
 # This file represents a page section.
 headless: true
 
@@ -22,28 +22,38 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: CEO
-    company: GenCoin
-    company_url: ''
-    company_logo: org-gc
-    location: California
-    date_start: '2021-01-01'
-    date_end: ''
+  - title: PhD
+    company: University of Geneva
+    company_url: 'https://www.unige.ch/medecine/phym/en/research/934trajkovski/'
+    company_logo: org-unige
+    location: Switzerland
+    date_start: '2017-05-01'
+    #date_end: '2021-08-31'
     description: |2-
-        Responsibilities include:
+        * Developed a [pipeline for genome-resolved metagenomics](https://metagenome-atlas.github.io/)
+        * Large-scale analysis of microbiomes at the subspecies-level
+        * Functional prediction of the microbiome, confirmed with metabolomics
 
-        * Analysing
-        * Modelling
-        * Deploying
-
-  - title: Professor of Semiconductor Physics
-    company: University X
+  - title: Microbiome data analyst
+    company: Nestlé Health Sciences
     company_url: ''
-    company_logo: org-x
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2020-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
+    company_logo: org-nestle
+    location: Switzerland
+    date_start: '2016-04-01'
+    date_end: '2017-03-28'
+    description: Relating microbiota data to human health (See Publications)
+
+  - title: Master in Bioengineering
+    company: École polytechnique fédérale de Lausanne
+    company_url: ''
+    company_logo: org-epfl
+    location: Switzerland
+    date_start: '2011-09-01'
+    date_end: '2017-03-01'
+    description: |2-
+      Minor in Biocomputing  
+      Courses include: Machine learning, Genomics and genetics, and Entrepreneurship  
+      Grade: 5.12/6
 
 design:
   columns: '2'
