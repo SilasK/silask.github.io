@@ -2,7 +2,22 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Antibiotic Treatment Leads to Fecal Escherichia coli and Coliphage Expansion in Severely Malnourished Diarrhea Patients"
-authors: ["Silas Kieser", "Shafiqul A. Sarker", "Bernard Berger", "Shamima Sultana", "Mohammed J. Chisti", "Shoeb B. Islam", "Francis Foata", "Nadine Porta", "Bertrand Betrisey", "Coralie Fournier", "Patrick Descombes", "Annick Mercenier", "Olga Sakwinska", "Harald Brüssow"]
+authors:
+- admin
+- "Shafiqul A. Sarker"
+- "Bernard Berger"
+- "Shamima Sultana"
+- "Mohammed J. Chisti"
+- "Shoeb B. Islam"
+- "Francis Foata"
+- "Nadine Porta"
+- "Bertrand Betrisey"
+- "Coralie Fournier"
+- "Patrick Descombes"
+- "Annick Mercenier"
+- "Olga Sakwinska"
+- "Harald Brüssow"
+
 date: 2017-12-01
 doi: "10.1016/j.jcmgh.2017.11.014"
 
@@ -16,10 +31,10 @@ publishDate: 2019-12-31T06:35:46+01:00
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Cellular and Molecular Gastroenterology and Hepatology"
-publication_short: "CMGH"
+publication: "In Cellular and Molecular Gastroenterology and Hepatology"
+publication_short: "In CMGH"
 
-abstract: "Malnutrition predisposes to diarrhea and diarrhea adversely affects the nutritional status creating a vicious cycle. 1 The role of the gut microbiome in malnutrition is an active research area. 2 Parenteral antibiotics are recommended by the World Health Organization in hospitalized pediatric patients with severe acute malnutrition (SAM) presenting signs of infections.3 Stool microbiota data for such patients are, however, lacking. To fill this gap, we studied the stool microbiota in 19 SAM patients from Bangladesh hospitalized with acute diarrhea (AD) and compared it with that of matched 20 healthy control subjects (HC)."
+abstract: "Malnutrition predisposes to diarrhea and diarrhea adversely affects the nutritional status creating a vicious cycle. The role of the gut microbiome in malnutrition is an active research area. Parenteral antibiotics are recommended by the World Health Organization in hospitalized pediatric patients with severe acute malnutrition (SAM) presenting signs of infections. Stool microbiota data for such patients are, however, lacking. To fill this gap, we studied the stool microbiota in 19 SAM patients from Bangladesh hospitalized with acute diarrhea (AD) and compared it with that of matched 20 healthy control subjects (HC)."
 
 # Summary. An optional shortened abstract.
 summary: ""

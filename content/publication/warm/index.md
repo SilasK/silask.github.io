@@ -66,9 +66,13 @@ url_source: ''
 url_video: 'https://youtu.be/46AcaqivfDk'
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
+# To use, place an image named `featured.jpg/png` in your page's folder.
+# Placement options: 1 = Full column width, 2 = Out-set, 3 = Screen-width
+# Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+# Set `preview_only` to `true` to just use the image for thumbnails.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  placement: 2
+  #caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
   focal_point: "top"
   preview_only: false
 
@@ -87,13 +91,3 @@ projects:
 #   Otherwise, set `slides: ""`.
 # slides: "example"
 ---
-
-# {{% callout note %}}
-# Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-# {{% /callout %}}
-#
-# {{% callout note %}}
-# Create your slides in Markdown - click the *Slides* button to check out the example.
-# {{% /callout %}}
-#
-# Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).
