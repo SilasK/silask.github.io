@@ -26,14 +26,6 @@ date_format: Jan 2006
 
 
 experience:
-  - title: Consultant
-    company: Kieser Metagenomics
-    company_url: ''
-    #company_logo: org-nestle
-    #location: Switzerland
-    date_start: '2021-04-30'
-    description: I'm starting my own business. Consulting about metagenome sequencing and analysis. Contact me if I can help you.
-
   - title: PhD
     company: University of Geneva
     company_url: 'https://www.unige.ch/medecine/phym/en/research/934trajkovski/'
