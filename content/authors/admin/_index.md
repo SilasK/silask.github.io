@@ -68,7 +68,9 @@ highlight_name: true
 ---
 
 I'm fascinated by the microbiome and search for ways to harness it to make us healthier.
-When I learned how complicated it was to sequence and the first human genome, I found metagenomics, the idea of sequencing thousand of microbial genomes at once mind-boggling. I'm happy to be part of this endeavor to resolve these enormous puzzles and recover genomes from complicated metagenomes.
+
+When I first learned about metagenomics, I found the idea of sequencing thousand of microbial genomes at once mind-boggling. I'm happy to be part of this endeavor to resolve these enormous puzzles and recover genomes from metagenomes.
+
 I'm finishing my PhD at the University of Geneva in the lab of Prof. Mirko Trajkovski, co-supervised by Prof. Evgeny Zdobnov.
 Besides microbiome analysis at the computer, I'm also hands-on involved by changing the diapers of my two children.
 <!--
