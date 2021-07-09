@@ -68,9 +68,9 @@ main_menu:
 
 # Localization
 
-date_format: "Jan 2, 2006"
+date_format: "2. Jan 2006"
 time_format: '15:04'
-address_format: en-us
+address_format: de
 
 # Site features
 
