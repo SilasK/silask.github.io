@@ -71,6 +71,11 @@ projects: []
 I will soon graduate and defend my PhD thesis entitled "Computational Approaches for a Healthier Microbiome".
 I would love you to be part of this event in one way or another.
 
+{{% callout note %}}
+[Please register](https://docs.google.com/forms/d/e/1FAIpQLSd6HTCNJPNXkJtYlIh-QsSwR9kwp8DRPMpJDPggBTTHbjtn_g/viewform), so I send you the information at the right time.
+
+{{% /callout %}}
+
 
 Tentative plan:
 
@@ -88,12 +93,6 @@ Tentative plan:
 The plan is subject to change due to covid measures.
 In theory you should be able to leave or enter the room between the indicated times.
 
-{{% callout note %}}
-
-
-[Please register](https://docs.google.com/forms/d/e/1FAIpQLSd6HTCNJPNXkJtYlIh-QsSwR9kwp8DRPMpJDPggBTTHbjtn_g/viewform), so I send you the information at the right time.
-
-{{% /callout %}}
 
 
 If you want to have a look at what I've written see here:
