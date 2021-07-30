@@ -45,6 +45,9 @@ disableAliases: true
 outputs:
   home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
   section: [HTML, RSS]
+  # Temporarily remove the "WebAppManifest", "redirects", "headers" output types from your config.yaml and run:
+  # hugo mod clean
+  # hugo mod tidy
 markup:
   defaultMarkdownHandler: goldmark
   goldmark:
