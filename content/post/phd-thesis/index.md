@@ -32,9 +32,8 @@ I finished writing my PhD Thesis with the title:
 
 **Computational approaches for a healthier microbiome**
 
-[Here is the PDF](Thesis_Kieser_V1_with_line_numbers.pdf)
+You can peak inside [here.](Thesis_Silas_Kieser.pdf)
 
-If you have any comments please e-mail or write me. I'm happy to take them into account.
 
 
 ![TOC](TOC.png)
