@@ -33,13 +33,13 @@
   icon = "linkedin-in"
   enable = true
 
-[[buttons]]
-  id = "whatsapp"
-  url = "whatsapp://send?text={title}%20{url}"
-  title = "WhatsApp"
-  icon_pack = "fab"
-  icon = "whatsapp"
-  enable = true
+# [[buttons]]
+#   id = "whatsapp"
+#   url = "whatsapp://send?text={title}%20{url}"
+#   title = "WhatsApp"
+#   icon_pack = "fab"
+#   icon = "whatsapp"
+#   enable = true
 
 # [[buttons]]
 #   id = "weibo"
