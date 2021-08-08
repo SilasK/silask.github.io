@@ -27,3 +27,5 @@ git push origin main
 cd ..
 
 git add public
+
+git commit -m"deployed"
