@@ -1,10 +1,10 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "My PhD defense"
+title: "My PhD defence"
 event:
 event_url:
-location: "Virtually or at CMU"
+location:
 address:
   street: Rue Michel-Servet 1  
   city:  Genève
@@ -16,15 +16,15 @@ abstract:
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2021-08-31T10:30:00+02:00
-date_end: 2021-08-31T12:30:00+02:00
+date: 2021-09-03T16:30:00+02:00
+#date_end: 2021-08-31T12:30:00+02:00
 all_day: false
 
 # Schedule page publish date (NOT event date).
 publishDate: 2021-07-30T12:32:08+02:00
 
 authors: []
-tags: []
+tags: [PhD]
 
 # Is this a featured event? (true/false)
 featured: true
@@ -35,7 +35,7 @@ featured: true
 image:
   caption: "Image credit: Unsplash"
   focal_point: ""
-  preview_only: true
+  preview_only: false
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
@@ -72,29 +72,54 @@ I will soon graduate and defend my PhD thesis entitled "Computational Approaches
 I would love you to be part of this event in one way or another.
 
 {{% callout note %}}
-[Please register](https://docs.google.com/forms/d/e/1FAIpQLSd6HTCNJPNXkJtYlIh-QsSwR9kwp8DRPMpJDPggBTTHbjtn_g/viewform), so I send you the information at the right time.
+
+Note, the date has changed .
 
 {{% /callout %}}
 
+I decided to make a public defence on **Friday 3. September**. This way, I will be able to present my work in a funny and accessible manner without the stress of failing to answer properly the questions of the jury.
 
-Tentative plan:
+## Plan:
 
-| Time in CET |                                                                                                            |
-| ----------- | ---------------------------------------------------------------------------------------------------------- |
-| 10:30       | I present my PhD work in a clear and accessible manner.                                                    |
-| 11:00       | Torture: I will be questioned in depth by the jury members and maybe yourself.               |
-| ~12:00      | Deliberation. The jury deliberates if I should pass my thesis exam or not. At least they pretend to do so. |
-| ~12:10      | I get the verdict if I pass or not. I give my acknowledgments. Everybody is happy.  Maybe I will get a PhD hat. |
-| ~12:30      | Apéro, outside                                                                                             |
+| Time (CET) |                  |  Place                  |
+| ---------- | ------------------------------------------------ | ----------------------- |
+| 16:30      | I present my PhD work in an accessible  manner.  | L’auditoire Renold      |
+| 17:00      | Apéro                                            | Outside, 3d floor       |
 
 
+We should have an online solution also for this date.
+
+## Registration:
+[Please register](https://docs.google.com/forms/d/e/1FAIpQLSeAHJ46OhK3DptDC83yRPnylbJBHPDx5Uu1zfSjIcvXjA_xSw/viewform), so that I can send you the information at the right time.
+People who already registered previously will be contacted individually, they don't need to register once more.
+
+## Directions:
+
+Address:
+New building (yellow shade in map),\
+Centre médical universitaire,\
+Rue Michel-Servet 1,\
+1206 Genève  
+
+![Map](Map.png)
+
+[Google Maps](https://www.google.com/maps/place/Section+Des+Sciences+Pharmaceutiques/@46.1944357,6.1496421,295m/data=!3m2!1e3!4b1!4m5!3m4!1s0x478c7b2cc9e0308b:0xcd4cb7bc26311978!8m2!3d46.1943481!4d6.1505779)
 
 
-The plan is subject to change due to covid measures.
-In theory you should be able to leave or enter the room between the indicated times.
+L'auditoire Renold: 1st floor (B01.2426). \
+Apéro: 3d floor, on the side facing Rue Lombard.
 
 
 
-If you want to have a look at what I've written see here:
+
+## Official PhD examination
+If you wish, it is still possible to join virtually or even in person the official defence that will be held on 31.8 at 10:30 - 11:00 (CET).
+The presentation will be more adapted for an audience knowing the subject.
+
+Please also register.
+
+## My Thesis
+
+If you want to have a look at what I've written, please see below:
 
 {{< cite page="/post/phd-thesis" view="3" >}}
