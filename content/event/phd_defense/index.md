@@ -73,11 +73,11 @@ I would love you to be part of this event in one way or another.
 
 {{% callout note %}}
 
-Note, the date has changed .
+Note, there are a public and a private defense. You can attend both.
 
 {{% /callout %}}
 
-I decided to make a public defence on **Friday 3. September**. This way, I will be able to present my work in a funny and accessible manner without the stress of failing to answer properly the questions of the jury.
+I make a public defence on **Friday 3. September**. This way, I will be able to present my work in a funny and accessible manner without the stress of failing to answer properly the questions of the jury.
 
 ## Plan:
 
@@ -86,11 +86,12 @@ I decided to make a public defence on **Friday 3. September**. This way, I will 
 | 16:30      | I present my PhD work in an accessible  manner.  | L’auditoire Renold      |
 | 17:00      | Apéro                                            | Outside, 3d floor       |
 
-
-We should have an online solution also for this date.
+The public defence should be streamed with this [Zoom link](https://unige.zoom.us/j/61936446604). If you register I will send it to you by mail.
 
 ## Registration:
-[Please register](https://docs.google.com/forms/d/e/1FAIpQLSeAHJ46OhK3DptDC83yRPnylbJBHPDx5Uu1zfSjIcvXjA_xSw/viewform), so that I can send you the information at the right time.
+[Please register](https://docs.google.com/forms/d/e/1FAIpQLSeAHJ46OhK3DptDC83yRPnylbJBHPDx5Uu1zfSjIcvXjA_xSw/viewform), so that I can send you the information at the right time. Registration is mandatory for person attending in person.
+
+
 People who already registered previously will be contacted individually, they don't need to register once more.
 
 ## Directions:
@@ -116,7 +117,7 @@ Apéro: 3d floor, on the side facing Rue Lombard.
 If you wish, it is still possible to join virtually or even in person the official defence that will be held on 31.8 at 10:30 - 11:00 (CET).
 The presentation will be more adapted for an audience knowing the subject.
 
-Please also register.
+Please also register so I will send you the Zoom link for the PhD examination. 
 
 ## My Thesis
 
