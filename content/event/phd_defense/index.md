@@ -86,7 +86,7 @@ I make a public defence on **Friday 3. September**. This way, I will be able to 
 | 16:30      | I present my PhD work in an accessible  manner.  | L’auditoire Renold      |
 | 17:00      | Apéro                                            | Outside, 3d floor       |
 
-The public defence should be streamed with this [Zoom link](https://unige.zoom.us/j/61936446604). If you register I will send it to you by mail.
+You can join the public defence with Zoom. If you register I will send it to you by mail.
 
 ## Registration:
 [Please register](https://docs.google.com/forms/d/e/1FAIpQLSeAHJ46OhK3DptDC83yRPnylbJBHPDx5Uu1zfSjIcvXjA_xSw/viewform), so that I can send you the information at the right time. Registration is mandatory for person attending in person.
@@ -117,7 +117,7 @@ Apéro: 3d floor, on the side facing Rue Lombard.
 If you wish, it is still possible to join virtually or even in person the official defence that will be held on 31.8 at 10:30 - 11:00 (CET).
 The presentation will be more adapted for an audience knowing the subject.
 
-Please also register so I will send you the Zoom link for the PhD examination. 
+Please also register so I will send you the Zoom link for the PhD examination.
 
 ## My Thesis
 
