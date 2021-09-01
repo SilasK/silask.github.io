@@ -110,6 +110,7 @@ Rue Michel-Servet 1,\
 L'auditoire Renold: 1st floor (B01.2426). \
 Apéro: 3d floor, on the side facing Rue Lombard.
 
+Easiest is to enter at the entrance near the Parking Lombard (orange highlight). For those arriving by train. The train stop "Genève-Champel" is 3 min away as indicated.
 
 
 
