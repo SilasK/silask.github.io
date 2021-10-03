@@ -7,6 +7,8 @@ echo "last message was "\"$commit_msg\"
 
 echo Build
 
+rm -r $TMPDIR/hugo_cache/
+
 hugo
 
 echo add Build to git submodule
