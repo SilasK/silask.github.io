@@ -28,7 +28,7 @@ authors: [admin]
 tags: [teaching]
 
 # Is this a featured event? (true/false)
-featured: false
+featured: true
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

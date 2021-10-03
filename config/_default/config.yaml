@@ -3,7 +3,7 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: S. Kieser # Website name
+title: Dr. Kieser # Website name
 baseurl: 'https://silask.github.io/' # Website URL
 copyright: '© {year} Silas Kieser' # Footer text, e.g. '© {year} Me'
 
