@@ -7,7 +7,7 @@ echo "last message was "\"$commit_msg\"
 
 echo Build
 
-rm -r $TMPDIR/hugo_cache/
+#rm -rf $TMPDIR/hugo_cache/
 
 hugo
 

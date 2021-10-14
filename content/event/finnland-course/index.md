@@ -40,16 +40,16 @@ image:
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
-# links:
-# - name: Follow
-#   url: https://twitter.com
-#   icon_pack: fab
-#   icon: twitter
+links:
+  - name: Reactions
+    url: https://twitter.com/SilasKieser/status/1445030136722739202
+    icon_pack: fab
+    icon: twitter
 
 # Optional filename of your slides within your event's folder or a URL.
 url_slides:
 
-url_code: https://github.com/metagenome-atlas/Tutorial_Finnland
+url_code:
 url_pdf:
 url_video:
 
@@ -68,8 +68,26 @@ slides: ""
 projects: [atlas]
 ---
 
+Metagenomics transformed how we study microbiomes by enabling the analysis of entire microbial communities from diverse environments, without the need for culturing. Recent improvements in algorithms enabled the assembly of larger and larger contigs from metagenomes, which then can be clustered together to produce draft genomes of new species. In this way, an almost unimaginable number of genomes from uncultured microbes could be assembled. These genomes allow for dataset-specific taxonomic analysis and genome-resolved functional annotation of metagenomes.
+
+In this online course, we will familiarize the participants with the steps required in assembly-based metagenomics (assembly, binning, genome completeness estimation, taxonomic and functional annotation). In the hand-on session we will use metagenome-atlas, a pipeline that implements the commonly used tools in a single workflow allowing users to get started with only three commands. Finally, we will show how to use the output of metagenome-atlas to answer scientific questions. The course will also serve as a platform for interaction between researchers and students,  working with metagenome and metatranscriptome data.
+
+
+
+
+
+
+
+
+
 ## Slides
-- [3_Atlas_in_details](https://www.dropbox.com/s/2x63md93kla1zsk/3_Atlas_detail.pdf?dl=0)
+- [From reads to genomes](Slides_1_Reads_to_genomes.pdf)
+- [Atlas in details](Slides_3_Atlas_detail.pdf)
+
+For background reading have a look at my PhD thesis.
+
+{{< cite page="/post/phd-thesis" view="3" >}}
+
 
 
 ## Program
@@ -87,13 +105,13 @@ Time: 9:15 – 12:30 + 13:30 - 17:00 EEST
 - What is metagenomics?
 - From Reads to genomes
 - :computer: [Workshop 1: Setup & Conda](https://metagenome-atlas.shinyapps.io/1_Get_started/)
-- Overview Metagenome-Atlas
-- :computer: Get started with Atlas
+
 
 
 
 ### Day 2
 **Invited Speaker**:
+
 **Dr. Sofie Thijs**, Center of Environmental Sciences, Hasselt University, Belgium
 
 
