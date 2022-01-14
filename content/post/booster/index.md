@@ -1,8 +1,8 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Die Entwicklung der Corona-Impfung war vielleicht doch etwas zu rasch. Warum ich mich trotzdem Boostern lasse."
-subtitle: ""
+title: "Der Booster der keiner ist"
+subtitle: "Die Entwicklung der Corona-Impfung war vielleicht doch etwas zu rasch. Warum ich mich trotzdem boostern lasse."
 summary: ""
 authors: [admin]
 tags: [german, corona]
