@@ -9,7 +9,7 @@ tags: [german, corona]
 categories: []
 date: 2022-01-14T17:52:00+01:00
 lastmod: 2022-01-14T17:52:00+01:00
-featured: false
+featured: true
 draft: false
 
 # Featured image
