@@ -2,8 +2,8 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "Der Booster der keiner ist"
-subtitle: "Die Entwicklung der Corona-Impfung war vielleicht doch etwas zu rasch. Warum ich mich trotzdem boostern lasse."
-summary: ""
+subtitle: ""
+summary: "Die Entwicklung der Corona-Impfung war vielleicht doch etwas zu rasch. Warum ich mich trotzdem boostern lasse."
 authors: [admin]
 tags: [Deutsch, corona]
 categories: []
@@ -28,7 +28,7 @@ image:
 projects: []
 ---
 
-*Disclaimer: Ich bin Immunologe, aber ich fand es wichtig meine Meinung gut erklärt für Verwante und Freunde aufzuschreiben*
+*Disclaimer: Ich bin keinImmunologe, aber ich fand es wichtig meine Meinung gut erklärt für Verwante und Freunde aufzuschreiben*
 
 # Über-rasch-end schnelle Impfstoff-Entwicklung
 
