@@ -79,4 +79,4 @@ projects: [atlas]
 
 {{< cite page="/post/phd-thesis" view="3" >}}
 
-
+For direct use of the mouse or human genome catalog see [github.com/trajkovski-lab/CMMG](https://github.com/trajkovski-lab/CMMG) and contact me if more information is needed. 
