@@ -76,7 +76,11 @@ projects: [atlas]
 - [Metagenome-atlas](https://metagenome-atlas.github.io/)
 - *Compositional data analysis* See Ch. 5 of my thesis.
 
+# Genome catalogs
+For direct use of the mouse or human genome catalog see [github.com/trajkovski-lab/CMMG](https://github.com/trajkovski-lab/CMMG) and contact me if more information is needed. 
+
+
 
 {{< cite page="/post/phd-thesis" view="3" >}}
 
-For direct use of the mouse or human genome catalog see [github.com/trajkovski-lab/CMMG](https://github.com/trajkovski-lab/CMMG) and contact me if more information is needed. 
+
