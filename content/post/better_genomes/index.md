@@ -33,7 +33,7 @@ Metagenomics has revoluzionized microbiology. This sequencing thechnology enable
 <!-- Gene W. Tyson were the first to recover genomes from metagenomes in 2004: 4  -->
 
 In 2017, Parks _et al._ published nearly 8,000 metagenome-assembled genomes (MAGs), which substantially expanded the tree of life^[@Parks2017]. Since then we entered in a **era of large-scale (re-)assembly in metagenomics**. Many researcher started to assemble MAGs from various metagenomes, often recovering dozens of new species. 
-2017 marks also the year of the beginning of my PhD. So I had the oportunity to to my PhD during this exiting time. I worked mainly on [a pipline]({{< relref "/publication/atlas" >}}) that allows to produce such MAG catalogs with only three commands. We applied our pipeline to all the samples from the mouse genome in order to recover a [comprehensive catalog of genomes for this microbiome]({{< relref "/publication/CMGM" >}}).
+2017 marks also the year of the beginning of my PhD. So I had the oportunity to to my PhD during this exiting time. I worked mainly on [a pipline]({{< relref "/publication/atlas" >}}) that allows to produce such MAG catalogs with only three commands. We applied our pipeline to all the samples from the mouse genome in order to recover a [comprehensive catalog of genomes for this microbiome]({{< relref "/publication/CMMG" >}}).
 
 With this study now published I reflect on what can could be improved for the benefic for oththers that take the challenge to create comprehensive catalogs for their microbime of interest. 
 
@@ -163,7 +163,7 @@ Of note, long-read sequencing, which makes assembly much easier or even superﬂ
 
 \citeallauthors{Resrev2021} postulate that we are in the middle of a \emph{resolution revolution} in microbiomics\footnote{The study of microbiomes. Metagenomics is a subfield thereof. }. Increased sampling will allow us to study the microbiome in more detail in space and over time. The third dimension in which they see resolution increase is in the taxonomic dimension.
 
-Having recovered over 30'000 genomes for the mouse gut, we were able to investigate subspecies diversity. We were able to identify subspecies with specific gene contents. We saw a consistent \kw{strain-boundary} at ~95.5\% ANI for many species (ch.~\ref{ch:cmgm}  Extended Data Fig. 2). The boundary is also visible in strain comparisons based on isolates
+Having recovered over 30'000 genomes for the mouse gut, we were able to investigate subspecies diversity. We were able to identify subspecies with specific gene contents. We saw a consistent \kw{strain-boundary} at ~95.5\% ANI for many species (ch.~\ref{ch:Kieser2022}  Extended Data Fig. 2). The boundary is also visible in strain comparisons based on isolates
 genomes  \parencite{VanRossum2020}.
 %
 Below this threshold, two organisms derived from a common ancestor have practically no more genome fraction in common \parencite{Nimwegen2021}. We found many strain pairs with similarity $>95\%$ ANI because mice are coprophages and share their microbiome with other mice within a cage. 
@@ -171,15 +171,15 @@ Below this threshold, two organisms derived from a common ancestor have practica
 By taking the subspecies into account, we were able to increase the mapping rate of a new mouse metagenome from 83 to 90\%. %Also, rarefaction analysis shows that our collection contains practically all species living in the gut of laboratory mice. We hope that our resource enables others to perform a comprehensive analysis of the mouse gut microbiome.
 
 
-% CMGM other members
+% CMMG other members
 \subsubsection{Going beyond bacteria}
 Most of the DNA in a gut microbiome comes from bacteria. However, often overlooked are organisms from the domains archaea and eukaryotes. Eukaryotes, such as fungi and protists, can be very large compared to prokaryotes and make up a sizable fraction of a microbiome's biomass without contributing an equal fraction to the metagenome (DNA). Viruses, plasmids, and other genetic elements are also essential members of microbiomes that are easily sequenced using shotgun metagenomics.
 
-For generating the CMGM, we not only looked for MAGs of bacteria but also viruses and plasmids. We did not assemble any genomes of archaea, which let us assume that they are not living in the mouse gut of laboratory mice.    We did not look for eukaryotes. Nevertheless, we think our catalog is an important resource to perform a comprehensive analysis of the mouse gut microbiome. The inclusion of plasmids and viruses increased the mapping rate of a mouse metagenome sample from 90\% to 94\%.
+For generating the CMMG, we not only looked for MAGs of bacteria but also viruses and plasmids. We did not assemble any genomes of archaea, which let us assume that they are not living in the mouse gut of laboratory mice.    We did not look for eukaryotes. Nevertheless, we think our catalog is an important resource to perform a comprehensive analysis of the mouse gut microbiome. The inclusion of plasmids and viruses increased the mapping rate of a mouse metagenome sample from 90\% to 94\%.
 
 \subsection{Comprehensive sets of functionally annotated genomes for the human and mouse gut}
 
-For the update of CMGM (Sec. \ref{sec:cold}), we annotated comprehensive sets of genomes from the mouse \emph{and human gut}. We made the functional annotations publicly available, together with the code, to calculate pathway abundance and associate functional changes with the condition or treatment of interest.
+For the update of CMMG (Sec. \ref{sec:cold}), we annotated comprehensive sets of genomes from the mouse \emph{and human gut}. We made the functional annotations publicly available, together with the code, to calculate pathway abundance and associate functional changes with the condition or treatment of interest.
 %
 These resources enable others to benefit from the advantages of genome-resolved metagenomics and efficiently perform functional analysis of mouse and human metagenomes.
 
