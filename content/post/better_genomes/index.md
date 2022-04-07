@@ -28,28 +28,54 @@ image:
 projects: []
 ---
 
-In 2017, Parks _et al._ published nearly 8,000 metagenome-assembled genomes (MAGs), which substantially expanded the tree of life^[@Parks2017]. Since then we entered in a **era of large-scale (re-)assembly in metagenomics**. Many researcher started to assemble MAGs from various metagenomes, often recovering dozens of new species. 
-2017 marks also the year of the beginning of my PhD. So I had the oportunity to to my PhD during this exiting time. I worked mainly on a pipline that allows to produce such MAG catalogs with only three commands. We applied our catalog to all the samples from the mouse genome.
+Metagenomics has revoluzionized microbiology. This sequencing thechnology enables researchers to gain insight in in the composition and functional potential of a microbial comunity _in situu_. Even, though it is called meta**genomics** the sequenced reads were not analyzed on a genome level, due to technical limitations, especially the lack of reference genomes for many microbiomes. 
 
-Weith this study now published I reflect on what can could be improved for the benefic for oththers that take the challenge to create comprehensive catalogs for their microbime of interest. 
+<!-- Gene W. Tyson were the first to recover genomes from metagenomes in 2004: 4  -->
+
+In 2017, Parks _et al._ published nearly 8,000 metagenome-assembled genomes (MAGs), which substantially expanded the tree of life^[@Parks2017]. Since then we entered in a **era of large-scale (re-)assembly in metagenomics**. Many researcher started to assemble MAGs from various metagenomes, often recovering dozens of new species. 
+2017 marks also the year of the beginning of my PhD. So I had the oportunity to to my PhD during this exiting time. I worked mainly on [a pipline]({{< relref "/publication/atlas" >}}) that allows to produce such MAG catalogs with only three commands. We applied our pipeline to all the samples from the mouse genome in order to recover a [comprehensive catalog of genomes for this microbiome]({{< relref "/publication/CMGM" >}}).
+
+With this study now published I reflect on what can could be improved for the benefic for oththers that take the challenge to create comprehensive catalogs for their microbime of interest. 
 
 
 # 1.	Use co-binning
 
-Most studies use single-sample assembly and binning. Because this is most scalable. This means each sample can be processed in paralell. The downside of this aproach is that the coverage information from only one sample is used, but we know that using the _differenctial coverage_ from multiple samples is very usefull for binning. There are alternatives, e.g. co-assembly and cross-mapping, which allow for the use of differencial abundance, but they have their other problems. 
-Recently, a new way for binning is 
+Most studies use single-sample assembly and binning, because each sample can be processed in paralell, which makes the aproach very scalable. The downside of this aproach is that the coverage information from only one sample is used. But using the _differenctial coverage_ from multiple samples can be very usefull for binning. There are alternatives, co-assembly and cross-mapping, which allow for the use of differencial abundance, but they have their own problems and challanges [^1]. 
+
+[^1]: For a more detailed informations on the different binning aproaches see [my thesis]({{< relref "../phd-thesis/Thesis_Silas_Kieser.pdf" >}}) p.14, and [my course]({{< relref "/events/finnland-course/Slides_3_Atlas_detail.pdf" >}}).
+
+Recently, a new strategy for binning was developped, which I call *Co-Binning*[^2]. The strategy works as folows:
+1. Assemble each sample seperately
+2. Concatenate the assembly of all samples to one
+3. Map the reads from all samples to the concatenated assembly
+4. Bin the contigs from each sample seperatly, but use the differencial abundance from all samples.
+
+This strategy more or less combines the advantages of the other binning strategies. It doesn't require co-assembly, allows for the use of differencial abundance and scales to many samples (~100). In this strategy is implemented in the two tools *Vamb*^[@Nissen2021] and *SemiBin*^[@Semibin]. The authors of Vamb also claim that it can disentangle genomes from different subspecies up to 97% ANI, which I find quite interesting. SemiBin in addition uses not only the abundance but also the taxonomic annotation. Both binners could in theory also be used for Eukaryote binning. 
+
+So, If you plan to recover many genomes from metagenomes think about trying out these new binners. I already implemented both binners in metagenome-atlas.
+
+[^2]: The aproach is called *multiplit* in the publication for Vamb.
 
 
-[^1]: For more information about the different binning modes. See my thesis p. 14 and my courses. 
+# 2.	Optimize quality estimation
+
+Now the second step comes after the realization that the MAGs are not as good as we think. There are highly fragmented, which can probably only be resolved with long-reads. 
+
+ -- even the "high-quality". First 
+and they are incomplete and contaminated^[@Chen2020]. 
 
 
-# 2.	Filter chimeric genomes
-# 3.	Optimize quality estimation
 Everithing is done with CehckM
 
 ## A.	Use BUSCO
 ## B.	Species specific
 ## C.	Ad-hoc 
+
+# 2.	Filter chimeric genomes
+
+
+
+
 
 # Use genome catalogs efficiently
 
