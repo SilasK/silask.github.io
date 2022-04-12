@@ -28,10 +28,10 @@ image:
 projects: []
 ---
 
-Metagenomics has revoluzionized microbiology. This sequencing technology enables researchers to gain insight into the composition and functional potential of a microbial community _in situu_. Even though it is called meta**genomics**, the sequenced reads were not analyzed on a genome level due to technical limitations, especially the lack of reference genomes for many microbiomes. 
+Metagenomics has revoluzionized microbiology. This sequencing technology enables researchers to gain insight into the composition and functional potential of a microbial community _in situ_. Even though it is called meta**genomics**, the sequenced reads were not analyzed on a genome level due to technical limitations, especially the lack of reference genomes for many microbiomes. 
 
 In 2017, Parks _et al._ published nearly 8,000 metagenome-assembled genomes (MAGs), which substantially expanded the tree of life (Parks _et al._ 2017). Since then, we have entered an **era of large-scale (re-)assembly in metagenomics**. Many researchers started to assemble MAGs from various metagenomes, often recovering dozens of new species. 
-2017 also marks the year of the beginning of my PhD. So I had the opportunity to do my PhD during this exciting time. I worked mainly on [a pipline]({{< relief "/publication/atlas" >}}) that allows producing such MAG catalogs with only three commands. We applied our pipeline to all the samples from the mouse genome in order to recover a [comprehensive catalog of genomes for this microbiome]({{< relief "/publication/CMMG" >}}).
+2017 also marks the year of the beginning of my PhD. So I had the opportunity to do my PhD during this exciting time. I worked mainly on [a pipline]({{< relref "/publication/atlas" >}}) that allows producing such MAG catalogs with only three commands. We applied our pipeline to all the samples from the mouse genome in order to recover a [comprehensive catalog of genomes for this microbiome]({{< relref "/publication/CMMG" >}}).
 
 With this study now published, I reflect on what can be improved for the benefit of others that take the challenge to create comprehensive catalogs for their microbiome of interest. 
 
@@ -57,7 +57,7 @@ So, If you plan to recover many genomes from metagenomes, think about trying out
 
 # 2. Optimize quality estimation
 
-The second step comes after realizing that the MAGs are not as good as we think  -- even the 'high-quality'. The part has to do with the fact that MAGs are just of lousy quality due to limitations of the computational pipelines. Manual curation is needed^[][@Chen2020].
+The second step comes after realizing that the MAGs are not as good as we think  -- even the 'high-quality'. The part has to do with the fact that MAGs are just of lousy quality due to limitations of the computational pipelines. Manual curation is needed (Chen _et al._ 2020).
 But part has to do with the quality estimators telling us they are of good quality when reality, they are not. 
 
 ## Use up-to-date databases for genome evaluation
@@ -74,7 +74,7 @@ If you have multiple genomes of the same species, which you have if you create a
 We re-analyzed genomes from the UHGG and HumGut databases with BUSCO and the same set for each genome. What was estimated by CheckM to be 99% complete came out to less than 50% for some genomes! Which is due to both effects. 1. BUSCO has a more up-to-date database, and 2. We evaluated genomes from the same species cluster not automatically but with the same marker genes as the representative. 
 
 
-{{< figure src="Completeness.png" caption="Completeness estimatd for all MAGs in the HumGut catalog. The x-axis shows the completeness estimated with CheckM in auto-lineage mode. The y-axis shows the Completeness estimated using BUSCO with the same marker genes for each species." id="Completeness >}}
+{{< figure src="Completeness.png" caption="Completeness estimatd for all MAGs in the HumGut catalog. The x-axis shows the completeness estimated with CheckM in auto-lineage mode. The y-axis shows the Completeness estimated using BUSCO with the same marker genes for each species." id="Completeness" >}}
 
 ## Ad-hoc quality estimation
 This point is more an idea than concrete advice. If you have many genomes from the same species (or higher taxonomic clade) from a specific environment, then per definition, you would have the best collection of genomes to evaluate the completeness. You could define an ad-hoc set of marker genes, e.g., genes at 95% identity present in >90% of the genomes. Then you turn it around and ask how many genomes have >90% of these genes. It helps to refine completeness for a given species.
@@ -87,4 +87,3 @@ Finally, with more and more genome catalogs out there, I think the question beco
 I could write more, but I leave it there for my first blog on metagenomics. Please reply to the Tweet below or mail me if you have comments and discussions. 
 
 
-<!-- {{< tweet  >}} -->
