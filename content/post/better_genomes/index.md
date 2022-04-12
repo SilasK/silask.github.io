@@ -50,7 +50,7 @@ Recently, a new strategy for binning was developed, which I call *Co-Binning*[^2
 
 This strategy more or less combines the advantages of the other binning strategy. It doesn't require co-assembly and allows for the use of differential abundance and scales to many samples (~100). This strategy is implemented in the two tools [*Vamb*](https://doi.org/10.1038/s41587-020-00777-4) and [*SemiBin*](https://doi.org/10.1038/s41587-020-00777-4). The authors of Vamb also claim that it can disentangle genomes from different subspecies up to 97% ANI, which I find pretty interesting. SemiBin uses not only the abundance but also the taxonomic annotation. Both binners could, in theory, also be used for Eukaryote binning. The only adaptation to SemiBin would be to use a taxonomic annotation that includes Eukaryotes.  
 
-So, If you plan to recover many genomes from metagenomes, think about trying out these new binners. I already implemented both binners in metagenome-atlas.
+So, If you plan to recover many genomes from metagenomes, think about trying out these new binners. I already implemented both binners in [metagenome-atlas]({{< relref "/publication/atlas" >}}).
 
 [^2]: The approach is called *multisplit* in the publication of Vamb.
 
