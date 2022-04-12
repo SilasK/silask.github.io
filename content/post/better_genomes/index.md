@@ -10,7 +10,7 @@ categories: []
 date: 2022-02-22T08:24:09+01:00
 lastmod: 2022-02-22T08:24:09+01:00
 featured: true
-draft: true
+draft: false
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -30,8 +30,6 @@ projects: []
 
 Metagenomics has revoluzionized microbiology. This sequencing thechnology enables researchers to gain insight in in the composition and functional potential of a microbial comunity _in situu_. Even, though it is called meta**genomics** the sequenced reads were not analyzed on a genome level, due to technical limitations, especially the lack of reference genomes for many microbiomes. 
 
-<!-- Gene W. Tyson were the first to recover genomes from metagenomes in 2004: 4  -->
-
 In 2017, Parks _et al._ published nearly 8,000 metagenome-assembled genomes (MAGs), which substantially expanded the tree of life^[@Parks2017]. Since then we entered in a **era of large-scale (re-)assembly in metagenomics**. Many researcher started to assemble MAGs from various metagenomes, often recovering dozens of new species. 
 2017 marks also the year of the beginning of my PhD. So I had the oportunity to to my PhD during this exiting time. I worked mainly on [a pipline]({{< relref "/publication/atlas" >}}) that allows to produce such MAG catalogs with only three commands. We applied our pipeline to all the samples from the mouse genome in order to recover a [comprehensive catalog of genomes for this microbiome]({{< relref "/publication/CMMG" >}}).
 
@@ -42,7 +40,7 @@ With this study now published I reflect on what can could be improved for the be
 
 Most studies use single-sample assembly and binning, because each sample can be processed in paralell, which makes the aproach very scalable. The downside of this aproach is that the coverage information from only one sample is used. But using the _differenctial coverage_ from multiple samples can be very usefull for binning. There are alternatives, co-assembly and cross-mapping, which allow for the use of differencial abundance, but they have their own problems and challanges [^1]. 
 
-[^1]: For a more detailed informations on the different binning aproaches see [my thesis]({{< relref "../phd-thesis/Thesis_Silas_Kieser.pdf" >}}) p.14, and [my course]({{< relref "/events/finnland-course/Slides_3_Atlas_detail.pdf" >}}).
+[^1]: For a more detailed informations on the different binning aproaches see [my thesis]({{< relref "../phd-thesis/" >}}) p.14, and [my course]({{< relref "/event/finnland-course" >}}).
 
 Recently, a new strategy for binning was developped, which I call *Co-Binning*[^2]. The strategy works as folows:
 1. Assemble each sample seperately
@@ -50,137 +48,37 @@ Recently, a new strategy for binning was developped, which I call *Co-Binning*[^
 3. Map the reads from all samples to the concatenated assembly
 4. Bin the contigs from each sample seperatly, but use the differencial abundance from all samples.
 
-This strategy more or less combines the advantages of the other binning strategies. It doesn't require co-assembly, allows for the use of differencial abundance and scales to many samples (~100). In this strategy is implemented in the two tools *Vamb*^[@Nissen2021] and *SemiBin*^[@Semibin]. The authors of Vamb also claim that it can disentangle genomes from different subspecies up to 97% ANI, which I find quite interesting. SemiBin in addition uses not only the abundance but also the taxonomic annotation. Both binners could in theory also be used for Eukaryote binning. 
+This strategy more or less combines the advantages of the other binning strategies. It doesn't require co-assembly, allows for the use of differencial abundance and scales to many samples (~100). In this strategy is implemented in the two tools *Vamb*^[@Nissen2021] and *SemiBin*^[@Semibin]. The authors of Vamb also claim that it can disentangle genomes from different subspecies up to 97% ANI, which I find quite interesting. SemiBin in addition uses not only the abundance but also the taxonomic annotation. Both binners could in theory also be used for Eukaryote binning. The only adaptation to SemiBin would be to use a taxonomic annotation that includes Eukaryotes.  
 
 So, If you plan to recover many genomes from metagenomes think about trying out these new binners. I already implemented both binners in metagenome-atlas.
 
-[^2]: The aproach is called *multiplit* in the publication for Vamb.
+[^2]: The aproach is called *multisplit* in the publication of Vamb.
 
 
 # 2.	Optimize quality estimation
 
-Now the second step comes after the realization that the MAGs are not as good as we think. There are highly fragmented, which can probably only be resolved with long-reads. 
+Now the second step comes after the realization that the MAGs are not as good as we think  -- even the "high-quality". Part has to do with the fact that MAGs are just of bad quality due to limitations of the computational pipelines. Manual curation is needed^[@Chen2020].
+But part has to do that the quality estimators tell us they are of good quality, when in reality they are not. 
 
- -- even the "high-quality". First 
-and they are incomplete and contaminated^[@Chen2020]. 
+## Use up-to-date databases for genome evaluation
+The whole field uses checkM, which is a very nice and neat tool most. However its database was not updated since 2015! Probably there will be soon a V2 of the tool be released, but in the meantime one can *use BUSCO* which works in a similar way, is based on the up-to-date OrthoDB markers and works also for eukaryotes. 
 
+## Don't automatically select marker-gene
 
-Everithing is done with CehckM
+CheckM and BUSCO automatically select the most appropriate marker-gene-set for evaluation. This is very handy, but it might also bias the results. For example, a genome is very incomplete. It's taxonomic lineace cannot be determined, whcih caused it to be evaluated at the most basic level. If by chance it contains many of the basic marker genes, which often cluster together in operons it's estimated as highly complete.  
 
-## A.	Use BUSCO
-## B.	Species specific
-## C.	Ad-hoc 
+If the genome in question is from a completely new species, there is no way to cirumvent this and it's good that the more unknown genomes are evaluated at more basic levels. However, if the genome belongs to an abundant species, you likely have houndreds of other genomes from the same species (in a radius of 95% ANI). In the worst case a bad genome evaluated at the most basic level could be estimated to have better quality than other genomes evaluated with the more extended marker gene sets.
+
+If you have multiple genomes of the same species, which you have if you do create a genome collection, you want them to be all evaluated with the same marker gene set. Together with Matija Trikovic, we made [a snakemake pipeline](https://github.com/trajkovski-lab/Quality-filtering) that does exaclty this. 
+
+We re-analyzed genomes from the UHGG and HumGut databases with BUSCO and the same set for each genome. What was estimated by Checkm to be 99% complete came out less than 50% for some genomes. This has to do with both effects. 1. BUSCO has more up-to-date database and 2. We evaluated genomes from the same species cluster not autmatically but with the same marker genes as the representative. 
+
+## Ad-hoc quality estimation
+This is more an idea than a concrete advice. If you have many genomes from the same species (or higher taxonomic clade) from a specific environment, then per definition you would have the best set of genomes to evaluate the completeness. You could define an ad-hoc set of marker genes, e.g. genes at 95% identity that are present in >90% of the genomes. Then you turn it around and ask how many genomes have >90% of these genes. It helps to refine completeness for a given species.
 
 # 2.	Filter chimeric genomes
+The ad-hoc quality estimation doesn't help with contamination. But recently new tools came out that check if genomes are chimeric. For example GUNG^[@GUNC2021]. By taxonomically annotating contigs they allow to identify contigs with incongruent taxonomy, aka chimera. This is obviouly reference based but it allows for filtering with much broader scope than only looking at the marker genes. 
 
+Finally, with more and more genome catalogs out there I think the question becomes more important how to efficently use them. Most of the time we choose **1** genome per species and map reads against it or build a Kraken DB. This aproach obvioulsy glosses over much of the strain variation that is already contained in the genome collections. In some publication the authors build Kraken dbs with many genomes per species, which increases the mapping rate overall but when estimated on species level it's actually lower^[@Nasko2018].
 
-
-
-
-# Use genome catalogs efficiently
-
-
-from PHD
-
-
-Accordingly, we are about to enter a \kw{post-assembly era}, where the assembly of metagenomes is no longer necessary, and microbiomes can be profiled directly. Having comprehensive catalogs of genomes for many microbiomes is a milestone in the analysis of microbiomes\footnote{Actually, it is included in Nature's \href{https://www.nature.com/collections/bhciihjhei}{Milestones in human microbiota research (2019)} }. 
-If the profiling of metagenomes is simple, it becomes even more important that we use the results effectively, as I explained in chapter~\ref{ch:coda}. 
-
-
-Does this render assembly and genomic binning unnecessary? Are pipelines, like \tool{metagenome-atlas}, no longer useful?
-%
-Surely, there are still challenges in several non-gut metagenomes. For example skin, and lung microbiomes yield low-biomass samples and are therefore difficult to assemble. Also, soil and ocean microbiomes are more complex than the typical gut microbiome, and therefore harder to assemble\footnote{Even though, for the ocean microbiome, a significant improvement was made \parencite{Paoli2021} recently. }.
-%Nevertheless, we now have reference genomes for the majority of species in many metagenomes.
-But even for metagenomes with good coverage, assembly and binning can give a crucial benefit to capture dataset-specific strain variation as I explained in section~\ref{sec:atlasunits}. 
-
-
-\subsection{Improving current genome collections}
-
-The field has come a long way in recovering genomes from metagenomes, but there is still room to improve the current genome references:  First, by improving the quality of the recovered genomes. Second, by deepening the resolution by including more strain-variation and finally, by widening the scope by including plasmids, viruses, and eukaryotes.
-
-
-
-%First of all, there is still much room to improve the quality of the genomes recovered from metagenomes. Next, the reliance solely on marker genes for the quality estimation of genomes might blind us to other sources of errors during the genome assembly and binning.
-%I see three ways to improve the current genome references: 
-%
-%Finally, even more, important than improving the current genome references is to use them effectively, as I explain in chapter~\ref{ch:coda}. %I discuss the statistical analysis of metagenomes.
-
-%\subsection{A comprehensive catalog of the mouse gut}
-
-%
-%
-
-%%%%%%%%%
-
-%
-%The field has come a long way in recovering genomes from metagenomes, but there is still much room to improve the quality of the genomes recovered from metagenomes.
-
-\subsubsection{Recover complete genomes from metagenomes}
-
-
-
-%
-% complete genomes
-The genomes reconstructed from metagenomes are of variable quality.
-While multiple genome reconstructions are available for highly prevalent species, and one can choose the best one as a representative, rare species are often represented only by one medium-quality MAG. 
-%
-Incomplete or \enquote{composite MAGs reduce the quality of public genome repositories}  \parencite{Shaiber2019}.
-%
-Moreover, even what is called a high-quality genome is mostly an estimation based on marker genes (See section~\ref{sec:completeness}).
-%
-The quality estimation is dependent on the marker gene set used. Therefore a bias in the marker gene set induces a bias in the genome estimation.
-%
-More fundamentally, I think genome quality estimation is overused. Metagenomic binners are evaluated on the quality score of their genome predictions. Marker genes are even used during the binning by some algorithms or by tools that combine and consolidate the results of multiple binners \parencite{dastool}.
-%
-I fear this to be an example of \kw{Goodhart's Law}: \enquote{When a measure becomes a target, it ceases to be a good measure.} \parencite{Strathern1997}.
-
-%\begin{quote}
-%	Goodhart's Law: When a measure becomes a target, it ceases to be a good measure.
-%
-%	\hfill\cite{Strathern1997}
-%\end{quote}
-
-
-%The quality estimation is very dependent on the marker gene set used. For instance, there are multiple definitions of the core-marker genes for all prokaryotes. The current best practice is to adapt the marker gene set to the closest phylogenetic group.
-
-
-The fundamental problem of estimating the quality of a genome solely by assessing the presence and duplication of marker genes is that this approach is entirely blind to contigs that do not contain marker genes. A MAG may have many contigs from a wholly different species without affecting the contamination estimation. Similarly, a `complete' genome might still be missing genome content that is not assessed by marker genes.
-%
-New tools have been developed that claim to purify a MAG of this unassessed contamination (\tool{MAGpurify}, and  \tool{conterminator} \parencite{Nayfach2019, Steinegger2020}) or to search for additional contigs that were missed (\tool{Spacegraphcats} and \tool{GraphBin}  \parencite{Spacegraphcats2020,graphbin2020}).
-%
-However, often it is only through manual curation that one can achieve an accurate and complete genome from metagenomes \parencite{Chen2020}.
-
-Ideally, a MAG would be assembled in one continuous sequence. For now, this only rarely happens. It is important to note that most large-scale efforts use single-sample assembly, as this approach is the most scalable. Binning methods that efficiently use differential abundance  (See box~\vpageref{box:diffab}) are promising ways to improve the continuity and quality of MAGs. 
-%
-\label{sec:critiquemarker} 
-%
-Of note, long-read sequencing, which makes assembly much easier or even superﬂuous, is becoming more common. Also, culturing of microbes from metagenomes is advancing. Both techniques have the potential to complement or even replace the recovery of genomes from metagenomes.
-
-
-
-
-\subsubsection{Including subspecies diversity}
-
-\citeallauthors{Resrev2021} postulate that we are in the middle of a \emph{resolution revolution} in microbiomics\footnote{The study of microbiomes. Metagenomics is a subfield thereof. }. Increased sampling will allow us to study the microbiome in more detail in space and over time. The third dimension in which they see resolution increase is in the taxonomic dimension.
-
-Having recovered over 30'000 genomes for the mouse gut, we were able to investigate subspecies diversity. We were able to identify subspecies with specific gene contents. We saw a consistent \kw{strain-boundary} at ~95.5\% ANI for many species (ch.~\ref{ch:Kieser2022}  Extended Data Fig. 2). The boundary is also visible in strain comparisons based on isolates
-genomes  \parencite{VanRossum2020}.
-%
-Below this threshold, two organisms derived from a common ancestor have practically no more genome fraction in common \parencite{Nimwegen2021}. We found many strain pairs with similarity $>95\%$ ANI because mice are coprophages and share their microbiome with other mice within a cage. 
-%
-By taking the subspecies into account, we were able to increase the mapping rate of a new mouse metagenome from 83 to 90\%. %Also, rarefaction analysis shows that our collection contains practically all species living in the gut of laboratory mice. We hope that our resource enables others to perform a comprehensive analysis of the mouse gut microbiome.
-
-
-% CMMG other members
-\subsubsection{Going beyond bacteria}
-Most of the DNA in a gut microbiome comes from bacteria. However, often overlooked are organisms from the domains archaea and eukaryotes. Eukaryotes, such as fungi and protists, can be very large compared to prokaryotes and make up a sizable fraction of a microbiome's biomass without contributing an equal fraction to the metagenome (DNA). Viruses, plasmids, and other genetic elements are also essential members of microbiomes that are easily sequenced using shotgun metagenomics.
-
-For generating the CMMG, we not only looked for MAGs of bacteria but also viruses and plasmids. We did not assemble any genomes of archaea, which let us assume that they are not living in the mouse gut of laboratory mice.    We did not look for eukaryotes. Nevertheless, we think our catalog is an important resource to perform a comprehensive analysis of the mouse gut microbiome. The inclusion of plasmids and viruses increased the mapping rate of a mouse metagenome sample from 90\% to 94\%.
-
-\subsection{Comprehensive sets of functionally annotated genomes for the human and mouse gut}
-
-For the update of CMMG (Sec. \ref{sec:cold}), we annotated comprehensive sets of genomes from the mouse \emph{and human gut}. We made the functional annotations publicly available, together with the code, to calculate pathway abundance and associate functional changes with the condition or treatment of interest.
-%
-These resources enable others to benefit from the advantages of genome-resolved metagenomics and efficiently perform functional analysis of mouse and human metagenomes.
-
-
+I could write more but I leave it there for my first blog on metagenomics. If you have comments and discussion reply to the Tweet below or send me a mail. 
