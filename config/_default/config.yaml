@@ -77,3 +77,10 @@ related:
       weight: 100
     - name: categories
       weight: 70
+      
+# new in hugo 0.9
+security:
+  funcs:
+    getenv:
+      - ^HUGO_
+      - ^WC_
