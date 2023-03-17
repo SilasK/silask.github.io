@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nestlé | Academic</title>
+    <link>https://silask.github.io/tags/nestle/</link>
+      <atom:link href="https://silask.github.io/tags/nestle/index.xml" rel="self" type="application/rss+xml" />
+    <description>Nestlé</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Dec 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://silask.github.io/img/icon-192.png</url>
+      <title>Nestlé</title>
+      <link>https://silask.github.io/tags/nestle/</link>
+    </image>
+    
+    <item>
+      <title>Antibiotic Treatment Leads to Fecal Escherichia coli and Coliphage Expansion in Severely Malnourished Diarrhea Patients</title>
+      <link>https://silask.github.io/publication/nestlemd/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>https://silask.github.io/publication/nestlemd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Internship at Nestlé research</title>
+      <link>https://silask.github.io/project/nestle/</link>
+      <pubDate>Mon, 02 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://silask.github.io/project/nestle/</guid>
+      <description>&lt;p&gt;Nestlé Research Center
+Feb 2016 – Feb 2017&lt;/p&gt;
+
+&lt;p&gt;This Internship allowed me to learn from experts about children gut microbiota. My job was to build a analysis pipeline for metagenomics analysis.&lt;br /&gt;
+I&amp;rsquo;d like to thank especially Bernard Berger, Olga Sakwinska and Harald Brüssow for their supervision.&lt;/p&gt;
+
+&lt;p&gt;Achievements:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Implementation of metagenomics analysis pipeline&lt;/li&gt;
+&lt;li&gt;Relating microbiota data to human health&lt;/li&gt;
+&lt;li&gt;First publication&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

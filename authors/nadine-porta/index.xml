@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nadine Porta | Academic</title>
+    <link>https://silask.github.io/authors/nadine-porta/</link>
+      <atom:link href="https://silask.github.io/authors/nadine-porta/index.xml" rel="self" type="application/rss+xml" />
+    <description>Nadine Porta</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Dec 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://silask.github.io/img/icon-192.png</url>
+      <title>Nadine Porta</title>
+      <link>https://silask.github.io/authors/nadine-porta/</link>
+    </image>
+    
+    <item>
+      <title>Antibiotic Treatment Leads to Fecal Escherichia coli and Coliphage Expansion in Severely Malnourished Diarrhea Patients</title>
+      <link>https://silask.github.io/publication/nestlemd/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>https://silask.github.io/publication/nestlemd/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

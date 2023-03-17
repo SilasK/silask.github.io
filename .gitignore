@@ -1,0 +1,8 @@
+public/
+.idea/
+.DS_Store
+# I don't know If I need them
+resources/_gen
+new.sh
+view.sh
+convert_nb_md.sh

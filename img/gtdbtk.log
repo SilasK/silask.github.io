@@ -1,0 +1,9 @@
+[2020-01-02 12:31:15] INFO: GTDB-Tk v1.0.2
+[2020-01-02 12:31:15] INFO: gtdbtk classify --genome_dir genomes/genomes --align_dir genomes/taxonomy/gtdb --out_dir genomes/taxonomy/gtdb --extension fasta --cpus 8
+[2020-01-02 12:31:15] INFO: Using GTDB-Tk reference data version r89: /dtemp/mscfcons/degnan/atlas_test/databases/GTDB-TK
+[2020-01-02 12:31:16] INFO: Placing 3 bacterial genomes into reference tree with pplacer (be patient).
+[2020-01-02 12:54:04] INFO: pplacer version: v1.1.alpha19-0-g807f6f3
+[2020-01-02 12:54:10] INFO: Calculating average nucleotide identity using FastANI.
+[2020-01-02 12:54:14] INFO: fastANI version: 1.3
+[2020-01-02 12:54:14] ERROR: Reference genome missing from FastANI database: /dtemp/mscfcons/degnan/atlas_test/databases/GTDB-TK/fastani/database/GCF_000014485.1_genomic.fna.gz
+[2020-01-02 12:54:14] ERROR: Controlled exit resulting from an unrecoverable error or warning.

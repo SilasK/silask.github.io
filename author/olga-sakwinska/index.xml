@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Olga Sakwinska | Silas Kieser&#39;s academic page</title>
+    <link>https://silask.github.io/author/olga-sakwinska/</link>
+      <atom:link href="https://silask.github.io/author/olga-sakwinska/index.xml" rel="self" type="application/rss+xml" />
+    <description>Olga Sakwinska</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 Silas Kieser</copyright><lastBuildDate>Fri, 01 Dec 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://silask.github.io/media/Tree.png</url>
+      <title>Olga Sakwinska</title>
+      <link>https://silask.github.io/author/olga-sakwinska/</link>
+    </image>
+    
+    <item>
+      <title>Antibiotic Treatment Leads to Fecal Escherichia coli and Coliphage Expansion in Severely Malnourished Diarrhea Patients</title>
+      <link>https://silask.github.io/publication/nestlemd/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>https://silask.github.io/publication/nestlemd/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

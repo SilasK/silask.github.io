@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Unused_widgets | Academic</title>
+    <link>https://silask.github.io/unused_widgets/</link>
+      <atom:link href="https://silask.github.io/unused_widgets/index.xml" rel="self" type="application/rss+xml" />
+    <description>Unused_widgets</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>https://silask.github.io/img/icon-192.png</url>
+      <title>Unused_widgets</title>
+      <link>https://silask.github.io/unused_widgets/</link>
+    </image>
+    
+    <item>
+      <title>Skills</title>
+      <link>https://silask.github.io/unused_widgets/skills/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://silask.github.io/unused_widgets/skills/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Experience</title>
+      <link>https://silask.github.io/unused_widgets/experience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://silask.github.io/unused_widgets/experience/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Accomplish&amp;shy;ments</title>
+      <link>https://silask.github.io/unused_widgets/accomplishments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://silask.github.io/unused_widgets/accomplishments/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Meet the Team</title>
+      <link>https://silask.github.io/unused_widgets/people/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://silask.github.io/unused_widgets/people/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

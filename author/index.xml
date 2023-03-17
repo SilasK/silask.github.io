@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Silas Kieser&#39;s academic page</title>
+    <link>https://silask.github.io/author/</link>
+      <atom:link href="https://silask.github.io/author/index.xml" rel="self" type="application/rss+xml" />
+    <description>Silas Kieser&#39;s academic page</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 Silas Kieser</copyright><lastBuildDate>Wed, 12 May 2021 10:48:48 +0200</lastBuildDate>
+    <image>
+      <url>https://silask.github.io/author/avatar_hu25d333fcded103db2f52f7476cb1420a_189736_270x270_fill_q90_lanczos_center.jpg</url>
+      <title>Silas Kieser&#39;s academic page</title>
+      <link>https://silask.github.io/author/</link>
+    </image>
+    
+    <item>
+      <title>It is finished!</title>
+      <link>https://silask.github.io/post/phd-thesis/</link>
+      <pubDate>Wed, 12 May 2021 10:48:48 +0200</pubDate>
+      <guid>https://silask.github.io/post/phd-thesis/</guid>
+      <description>&lt;p&gt;I finished writing my PhD Thesis with the title:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Computational approaches for a healthier microbiome&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;Thesis_Kieser_V1_with_line_numbers.pdf&#34;&gt;Here is the PDF&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you have any comments please e-mail or write me. I&amp;rsquo;m happy to take them into account.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;TOC.png&#34; alt=&#34;TOC&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I made a small graphic how many words I wrote over time. The chapters consist mainly of the publications, therefore I didn&amp;rsquo;t took them into account.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Wordcounts.png&#34; alt=&#34;Words over time&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

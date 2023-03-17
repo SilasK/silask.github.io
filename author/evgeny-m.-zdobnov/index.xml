@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Evgeny M. Zdobnov | Silas Kieser&#39;s academic page</title>
+    <link>https://silask.github.io/author/evgeny-m.-zdobnov/</link>
+      <atom:link href="https://silask.github.io/author/evgeny-m.-zdobnov/index.xml" rel="self" type="application/rss+xml" />
+    <description>Evgeny M. Zdobnov</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 Silas Kieser</copyright><lastBuildDate>Mon, 21 Oct 2019 20:03:06 +0200</lastBuildDate>
+    <image>
+      <url>https://silask.github.io/media/Tree.png</url>
+      <title>Evgeny M. Zdobnov</title>
+      <link>https://silask.github.io/author/evgeny-m.-zdobnov/</link>
+    </image>
+    
+    <item>
+      <title>ATLAS: a Snakemake workflow for assembly, annotation, and genomic binning of metagenome sequence data</title>
+      <link>https://silask.github.io/publication/atlas/</link>
+      <pubDate>Mon, 21 Oct 2019 20:03:06 +0200</pubDate>
+      <guid>https://silask.github.io/publication/atlas/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
