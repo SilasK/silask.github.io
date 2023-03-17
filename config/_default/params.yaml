@@ -133,6 +133,14 @@ comments:
     show_count: false
   commento:
     url: ''
+  giscus:
+    repo: 'silask/silask.github.io'
+    repo_id: 'MDEwOlJlcG9zaXRvcnkyODc3MjM3Nzc='
+    category: 'General'
+    category_id: 'DIC_kwDOESZRAc4CU7yv'
+    theme: preferred_color_scheme
+    language_code: en
+    mapping: pathname
 search:
   provider: wowchemy
   algolia:
