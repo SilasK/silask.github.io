@@ -34,9 +34,9 @@ experience:
     date_start: '2022-09-01'
     date_end: '2023-08-31'
     description: |2-
-          * Automation of microbiome analysis for clinical trials using R-markdown
-          * Strain-analysis of the airways-microbiome
-          * [(See Publications)](https://silask.github.io/tag/nestle/)
+        * Automation of microbiome analysis for clinical trials using R-markdown
+        * Strain-analysis of the airways-microbiome
+        * [Publications](https://silask.github.io/tag/nestle/)
 
 
 
@@ -47,7 +47,7 @@ experience:
     company_logo: org-unige
 #     location: Switzerland
     date_start: '2017-05-01'
-    #date_end: '2021-08-31'
+    date_end: '2021-08-31'
     description: |2-
         * Developed a [pipeline for genome-resolved metagenomics](https://metagenome-atlas.github.io/)
         * Large-scale analysis of microbiomes at the subspecies-level
