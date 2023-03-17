@@ -26,26 +26,41 @@ date_format: Jan 2006
 
 
 experience:
+  - title: Microbiome data specialist
+    company: Nestlé Health Sciences
+    company_url: ''
+    company_logo: org-nestle
+#     location: Switzerland
+    date_start: '2022-09-01'
+    date_end: '2023-08-31'
+    description: |2-
+        * Automation of microbiome analysis for clinical trials using R-markdown
+        * Strain-analysis of the airways-microbiome
+        * [Publications](https://silask.github.io/tag/nestle/)
+
+
+
+
   - title: PhD
     company: University of Geneva
     company_url: 'https://www.unige.ch/medecine/phym/en/research/934trajkovski/'
     company_logo: org-unige
 #     location: Switzerland
     date_start: '2017-05-01'
-    #date_end: '2021-08-31'
+    date_end: '2021-08-31'
     description: |2-
         * Developed a [pipeline for genome-resolved metagenomics](https://metagenome-atlas.github.io/)
         * Large-scale analysis of microbiomes at the subspecies-level
         * Functional prediction of the microbiome, confirmed with metabolomics
 
-  - title: Microbiome data analyst
-    company: Nestlé Health Sciences
-    company_url: ''
-    company_logo: org-nestle
+#  - title: Microbiome data analyst
+#    company: Nestlé Health Sciences
+#    company_url: ''
+#    company_logo: org-nestle
 #     location: Switzerland
-    date_start: '2016-04-01'
-    date_end: '2017-03-28'
-    description: Relating microbiota data to human health [(See Publications)](https://silask.github.io/tag/nestle/)
+#    date_start: '2016-04-01'
+#    date_end: '2017-03-28'
+#    description: Relating microbiota data to human health [(See Publications)](https://silask.github.io/tag/nestle/)
 
   - title: Master in Bioengineering
     company: École polytechnique fédérale de Lausanne

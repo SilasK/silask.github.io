@@ -11,12 +11,14 @@ font: ''
 font_size: L
 
 # SEO
+marketing:
+  seo:
+    site_type: Person
+    local_business_type: ''
+    org_name: ''
+    description: ''
+    twitter: 'SilasKieser'
 
-site_type: Person
-local_business_type: ''
-org_name: ''
-description: ''
-twitter: ''
 
 # Contact (edit or remove options as required)
 
@@ -120,19 +122,6 @@ projects:
 breadcrumb:
   page_types:
     book: true
-comments:
-  provider: ''
-  commentable:
-    post: true
-    book: true
-    project: true
-    publication: true
-    event: true
-  disqus:
-    shortname: 'silask'
-    show_count: false
-  commento:
-    url: ''
 search:
   provider: wowchemy
   algolia:
@@ -156,3 +145,26 @@ cms:
 icon:
   pack:
     ai: true
+
+features:
+  comments:
+    provider: giscus
+    giscus:
+      repo: 'silask/silask.github.io'
+      repo_id: 'MDEwOlJlcG9zaXRvcnkyODc3MjM3Nzc='
+      category: 'General'
+      category_id: 'DIC_kwDOESZRAc4CU7yv'
+      theme: preferred_color_scheme
+      language_code: en
+      mapping: pathname
+    commentable:
+      post: true
+      book: true
+      project: true
+      publication: true
+      event: true
+    disqus:
+      shortname: 'silask'
+      show_count: false
+    commento:
+      url: ''
