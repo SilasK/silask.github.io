@@ -87,4 +87,4 @@ Finally, with more and more genome catalogs out there, I think the question beco
 
 I could write more, but I leave it there for my first blog on metagenomics. Please reply to the Tweet below or mail me if you have comments and discussions. 
 
-{{< tweet 1513809109686042628 >}}
+{{< tweet user="SilasKieser" id="1513809109686042628" >}}
