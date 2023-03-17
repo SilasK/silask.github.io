@@ -22,17 +22,17 @@ twitter: ''
 
 email: silas.kieser@gmail.com
 # phone: 0041765007311
-address:
-  street: 1 Rue Michel Servet
-  city: Geneva
-  region: VD
-  postcode: '1211'
-  country: Switzerland
-  country_code: CH
-coordinates:
-  latitude: '46.193535'
-  longitude: '6.151304'
-directions: CMU - laboratory D06.1546.a
+#address:
+#  street: 1 Rue Michel Servet
+#  city: Geneva
+#  region: VD
+#  postcode: '1211'
+#  country: Switzerland
+#  country_code: CH
+#coordinates:
+#  latitude: '46.193535'
+#  longitude: '6.151304'
+#directions: CMU - laboratory D06.1546.a
 # office_hours:
 #   - 'Monday 10:00 to 13:00'
 #   - 'Wednesday 09:00 to 10:00'
