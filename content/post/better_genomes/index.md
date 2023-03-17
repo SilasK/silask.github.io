@@ -11,6 +11,7 @@ date: 2022-04-12T00:24:00+01:00
 lastmod: 2022-04-12T00:00:00+01:00
 featured: true
 draft: false
+commentable: true
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

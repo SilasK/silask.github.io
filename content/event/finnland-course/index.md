@@ -15,6 +15,8 @@ summary: |
   Metagenome-atlas Three commands to start analysing your metagenome data
 abstract:
 
+
+commentable: true
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
 date: 2021-09-03T22:50:40+02:00
