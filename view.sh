@@ -11,7 +11,7 @@ kill -9 $process
 
 
 open -a "Google Chrome.app" "http://localhost:1313"
-hugo --i18n-warnings server
+hugo server
 #
 # process=$(lsof -i :1313 -Fp |head -n1)
 #
