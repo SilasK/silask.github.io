@@ -43,7 +43,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: "mailto:silas.kieser@unige.ch" #'#contact'  # For a direct email link, use "mailto:test@example.org".
+  link: "mailto:silas.kieser@gmail.ch" #'#contact'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/SilasKieser
@@ -70,8 +70,6 @@ highlight_name: true
 I'm fascinated by the microbiome and search for ways to harness it to make us healthier.
 
 When I first learned about metagenomics, I found the idea of sequencing thousand of microbial genomes at once mind-boggling. I'm happy to be part of this endeavor to resolve these enormous puzzles and recover genomes from metagenomes.
-
-I'm finishing my PhD at the University of Geneva in the lab of Prof. Mirko Trajkovski, co-supervised by Prof. Evgeny Zdobnov.
 Besides microbiome analysis at the computer, I'm also hands-on involved by changing the diapers of my two children.
 <!--
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->

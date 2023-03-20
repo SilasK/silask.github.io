@@ -10,3 +10,6 @@ themes
 jsconfig.json
 node_modules/
 exampleSite/
+
+
+.hugo_build.lock
