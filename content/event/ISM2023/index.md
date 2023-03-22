@@ -2,7 +2,7 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "Tutorial at the ISMB/ECCB 2023"
-event:
+event: Register
 event_url: https://www.iscb.org/ismbeccb2023-programme/tutorials
 location: Remote
 address:
@@ -70,8 +70,10 @@ slides: ""
 projects: [atlas]
 ---
 
-Part 1: Monday, July 17 (14:00 – 18:00 CEST)
-Part 2: Tuesday, July 18 (14:00 – 18:00 CEST)
+
+**Part 1**: Monday, July 17 (14:00 – 18:00 CEST)
+
+**Part 2**: Tuesday, July 18 (14:00 – 18:00 CEST)
 
 
 Metagenomics is transforming how we study microbiomes by enabling the analysis of entire microbial communities from diverse environments, without the need for culturing. Recent improvements in computational algorithms enable the assembly of genomes directly from metagenomic data. In this way, assembly-based metagenomics allowed the recovery of an almost unimaginable number of uncultured microbes from different environments such as the gut and ocean. However, the availability of genomes is only the start of the analysis.
