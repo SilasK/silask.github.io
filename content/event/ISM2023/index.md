@@ -1,8 +1,8 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Tutorial at the ISMB/ECCB 2023"
-event: Register
+title: "Tutorial at the ISMB 2023"
+event: ISMB/ECCB 2023 Tutorial
 event_url: https://www.iscb.org/ismbeccb2023-programme/tutorials
 location: Remote
 address:
@@ -12,6 +12,8 @@ address:
   postcode:
   country: 
 summary: |
+  I will give a virtual Tutorial about Metagenome-Atlas at the ISMB/ECCB conference
+  
 abstract:
 
 
@@ -38,7 +40,7 @@ commentable: true
 image:
   caption: ""
   focal_point: ""
-  preview_only: false
+  preview_only: true
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
@@ -70,12 +72,9 @@ slides: ""
 projects: [atlas]
 ---
 
-[**Register here**](https://www.iscb.org/ismbeccb2023-programme/tutorials)
 
-**Part 1**: Monday, July 17 (14:00 – 18:00 CEST)
 
-**Part 2**: Tuesday, July 18 (14:00 – 18:00 CEST)
-
+# Functional metagenomics made easy
 
 Metagenomics is transforming how we study microbiomes by enabling the analysis of entire microbial communities from diverse environments, without the need for culturing. Recent improvements in computational algorithms enable the assembly of genomes directly from metagenomic data. In this way, assembly-based metagenomics allowed the recovery of an almost unimaginable number of uncultured microbes from different environments such as the gut and ocean. However, the availability of genomes is only the start of the analysis.
 
@@ -91,3 +90,12 @@ The participants will
 ### Intended Audience:
 
 The workshop is intended for beginners. Participants should know what a fastq is, how to run commands in bash. They should know how to read tables in their programming language in either python or R.  For the hands-on session, the participants should bring their laptops, with a possibility to run bash (Linux, Mac, Linux subsystem for windows, docker container, remote connection to server).
+
+### Times
+
+**Part 1**: Monday, July 17 (14:00 – 18:00 CEST)
+
+**Part 2**: Tuesday, July 18 (14:00 – 18:00 CEST)
+
+
+[**Link to ISMB/ECCB 2023**](https://www.iscb.org/ismbeccb2023-programme/tutorials)
