@@ -42,6 +42,11 @@ image:
   focal_point: ""
   preview_only: true
 
+
+links:
+  - name: Register
+    url: https://www.iscb.org/ismbeccb2023-register
+
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
 # links:
@@ -99,3 +104,7 @@ The workshop is intended for beginners. Participants should know what a fastq is
 
 
 [**Link to ISMB/ECCB 2023**](https://www.iscb.org/ismbeccb2023-programme/tutorials)
+
+
+
+{{< tweet user="SilasKieser" id="1638510391289344004" >}}
