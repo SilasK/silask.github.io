@@ -70,6 +70,7 @@ slides: ""
 projects: [atlas]
 ---
 
+[**Register here**](https://www.iscb.org/ismbeccb2023-programme/tutorials)
 
 **Part 1**: Monday, July 17 (14:00 – 18:00 CEST)
 
