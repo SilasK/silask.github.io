@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Newpost"
+title: "Evolution"
 subtitle: ""
 summary: ""
 authors: []
@@ -10,7 +10,7 @@ categories: []
 date: 2023-03-21T13:39:00+01:00
 lastmod: 2023-03-21T13:39:00+01:00
 featured: false
-draft: false
+draft: true
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
