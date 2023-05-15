@@ -27,3 +27,30 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
+
+
+From one man he made humankind. … we are his offspring. 
+
+“Evolution allows you to be a fullfilled atheist.” REF
+Without the theorie of evolution it doesn’t make sense to be an atheist. 
+
+I think this is one of the reason for the tesnsion about Evolution in scientific circles. 
+
+
+What is Evolution.
+
+Common descent. 
+
+Mechanism?
+
+Economic law applied to Biology.
+4 Steps - very convincing
+
+
+
+Macro/ Micro evolution. 
+
+
+
+Species gap.
+
