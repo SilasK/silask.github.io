@@ -43,7 +43,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: "mailto:silas.kieser@gmail.ch" #'#contact'  # For a direct email link, use "mailto:test@example.org".
+  link: "mailto:silas.kieser@gmail.com" #'#contact'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/SilasKieser
