@@ -24,7 +24,7 @@ all_day: false
 publishDate: 2023-05-29T11:10:12+02:00
 
 authors: [admin]
-tags: [metagenomics,subspecies]
+tags: [metagenomics,subspecies,Nestlé]
 
 # Is this a featured event? (true/false)
 featured: false
