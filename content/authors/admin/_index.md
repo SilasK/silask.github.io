@@ -44,6 +44,12 @@ social:
 - icon: envelope
   icon_pack: fas
   link: "mailto:silas.kieser@gmail.com" #'#contact'  # For a direct email link, use "mailto:test@example.org".
+- icon: mastodon
+  icon_pack: fab
+  link: https://mstdn.science/@silask
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/silas-kieser-9016ba5a
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/SilasKieser
