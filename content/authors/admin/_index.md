@@ -11,8 +11,8 @@ role: Metagenome researcher
 
 # Organizations/Affiliations
 organizations:
-#- name: University of Geneva
-#  url: ""
+- name: Developper of Metagenome-Atlas
+ url: "https://metagenome-atlas.github.io/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: Husband, Father & Metagenome researcher
