@@ -11,8 +11,8 @@ role: Metagenome researcher
 
 # Organizations/Affiliations
 organizations:
-- name: University of Geneva
-  url: ""
+#- name: University of Geneva
+#  url: ""
 
 # Short bio (displayed in user profile at end of posts)
 bio: Husband, Father & Metagenome researcher
