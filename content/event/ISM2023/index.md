@@ -5,12 +5,6 @@ title: "Tutorial at the ISMB 2023"
 event: ISMB/ECCB 2023 Tutorial
 event_url: https://www.iscb.org/ismbeccb2023-programme/tutorials
 location: Remote
-address:
-  street:
-  city:
-  region:
-  postcode:
-  country: 
 summary: |
   A Tutorial about Metagenome-Atlas at the ISMB/ECCB conference
   
@@ -58,7 +52,7 @@ links:
 # Optional filename of your slides within your event's folder or a URL.
 url_slides:
 
-url_code:
+url_code: https://github.com/metagenome-atlas/Tutorial
 url_pdf:
 url_video:
 
