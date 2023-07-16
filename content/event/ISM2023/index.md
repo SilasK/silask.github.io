@@ -12,7 +12,7 @@ address:
   postcode:
   country: 
 summary: |
-  I will give a virtual Tutorial about Metagenome-Atlas at the ISMB/ECCB conference
+  A Tutorial about Metagenome-Atlas at the ISMB/ECCB conference
   
 abstract:
 
@@ -77,13 +77,47 @@ slides: ""
 projects: [atlas]
 ---
 
-
-
 # Functional metagenomics made easy
+<!--
+
 
 Metagenomics is transforming how we study microbiomes by enabling the analysis of entire microbial communities from diverse environments, without the need for culturing. Recent improvements in computational algorithms enable the assembly of genomes directly from metagenomic data. In this way, assembly-based metagenomics allowed the recovery of an almost unimaginable number of uncultured microbes from different environments such as the gut and ocean. However, the availability of genomes is only the start of the analysis.
 
 In this tutorial, we will familiarize the participants with the steps required in assembly-based metagenomics (assembly, binning, Genome-completeness estimation, taxonomic and functional annotation, and pathway inference). In the hand-on session, we will use metagenome-atlas a commonly used metagenomics pipeline, that allows users to get started in three commands with their analysis. Based on a case study we show how the functional annotation of genomes can be leveraged to make sense of the data.
+
+
+
+### Intended Audience:
+
+The workshop is intended for beginners. Participants should know what a fastq is, how to run commands in bash. They should know how to read tables in their programming language in either python or R.  For the hands-on session, the participants should bring their laptops, with a possibility to run bash (Linux, Mac, Linux subsystem for windows, docker container, remote connection to server).
+-->
+
+### Particpants To-Do list
+
+- [ ] [Setup](https://github.com/metagenome-atlas/Tutorial/blob/master/Setup.md) at the beginning of the course.
+- [ ] Fill in the [ISMB Feedback form](https://docs.google.com/forms/d/e/1FAIpQLSf_0RTzbDDMYLoB6sshSJ_uKtbTrC1xESEknfIexsdboh7lHA/viewform) at the end of the course.
+
+
+### Links to interactive Tutorials
+
+1. [Run a metagenome analysis with tree commands](https://metagenome-atlas.shinyapps.io/TryAtlas)
+2. [Closer look at the reports](https://metagenome-atlas.shinyapps.io/Output_human)
+3. [Analyse the output of metagenome-atlas](https://metagenome-atlas.shinyapps.io/Part2) 
+
+### Slides
+Slides will be posted here after the tutorial. 
+
+### Instructors
+
+- [Silas Kieser](https://silask.github.io/)
+- [Matija Tričković](https://www.linkedin.com/in/trickovicmatija)
+
+### Times
+
+**Part 1**: Monday, July 17 (14:00 – 18:00 CEST)
+
+**Part 2**: Tuesday, July 18 (14:00 – 18:00 CEST)
+
 
 ### Learning Objectives:
 
@@ -92,16 +126,6 @@ The participants will
 2. Understand the steps used of gene annotation and pathway inference
 3. Use the functional and taxonomic annotation of a metagenome dataset to answer scientific questions.
    
-### Intended Audience:
-
-The workshop is intended for beginners. Participants should know what a fastq is, how to run commands in bash. They should know how to read tables in their programming language in either python or R.  For the hands-on session, the participants should bring their laptops, with a possibility to run bash (Linux, Mac, Linux subsystem for windows, docker container, remote connection to server).
-
-### Times
-
-**Part 1**: Monday, July 17 (14:00 – 18:00 CEST)
-
-**Part 2**: Tuesday, July 18 (14:00 – 18:00 CEST)
-
 
 [**Link to ISMB/ECCB 2023**](https://www.iscb.org/ismbeccb2023-programme/tutorials)
 
