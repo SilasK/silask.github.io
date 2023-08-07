@@ -1,36 +1,36 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Esa"
+title: "ESA Planetary Protection Workshop"
 event:
-event_url:
-location:
+event_url: "https://atpi.eventsair.com/23m40---ppnse2023"   # Replace this with the actual workshop URL
+location: "ESTEC, Noordwijk, The Netherlands"
 address:
-  street:
-  city:
-  region:
-  postcode:
-  country:
-summary:
-abstract:
+  street: 
+  city: "Noordwijk"
+  region: "South Holland"
+  postcode: 
+  country: "The Netherlands"
+summary: "Speaking at the ESA Planetary Protection Workshop on Assessing metagenomic methods for their inclusion in ESA standards."
+abstract: "I have been invited to attend the ESA Planetary Protection Workshop at ESTEC, Noordwijk, The Netherlands, on 3rd-4th October 2023. The workshop aims to discuss and assess metagenomic methods for future inclusion in Planetary Protection practices. It provides an opportunity to learn from international experts in the field and actively participate in work cases."
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2023-08-07T21:03:49+02:00
-date_end: 2023-08-07T21:03:49+02:00
+date: 2023-10-03T00:00:00+02:00
+date_end: 2023-10-04T23:59:59+02:00
 all_day: false
 
 # Schedule page publish date (NOT event date).
 publishDate: 2023-08-07T21:03:49+02:00
 
-authors: []
-tags: []
+authors: [admin]   # Add your name or names of other authors if applicable
+tags: ["ESA", "Metagenomics"]
 
 # Is this a featured event? (true/false)
 featured: false
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+# To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: ""
@@ -64,5 +64,7 @@ slides: ""
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects: [atlas]
 ---
+
+
