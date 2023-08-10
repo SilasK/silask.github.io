@@ -7,6 +7,15 @@ categories:
   - Coding
 format: hugo-md
 #jupyter: python3
+
+toc: true
+filters:
+  - ../../../scripts/doi2cite.lua
+  - quarto
+bibliography:
+  - '__from_DOI.bib'
+  
+csl: https://raw.githubusercontent.com/citation-style-language/styles/0749a19b8306f2e8dcb9bf1a2e3a6992666030ac/nature.csl
 ---
 
 
@@ -14,6 +23,8 @@ format: hugo-md
 ## Quarto Document
 
 Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+Now I add a citation to a doi [@doi:10.1371/journal.pone.0061217] 
 
 ### R code
 
