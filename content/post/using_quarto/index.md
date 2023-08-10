@@ -7,11 +7,26 @@ categories:
   - Coding
 format: hugo-md
 #jupyter: python3
+
+toc: true
+filters:
+  - ../../../scripts/doi2cite.lua
+  - quarto
+bibliography:
+  - '__from_DOI.bib'
+  
+csl: https://raw.githubusercontent.com/citation-style-language/styles/0749a19b8306f2e8dcb9bf1a2e3a6992666030ac/nature.csl
 ---
+
+-   [Quarto Document](#quarto-document)
+    -   [R code](#r-code)
+    -   [Python](#python)
 
 ## Quarto Document
 
 Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+Now I add a citation to a doi<sup>1</sup>
 
 ### R code
 
@@ -32,3 +47,5 @@ And now I use python in the same document see the [Figure 1](#fig-polar).
 > I needed to install `nbclient` using pip to make it work.
 
 <img src="index.markdown_strict_files/figure-markdown_strict/fig-polar-1.png" id="fig-polar" width="768" alt="Figure 1: A line plot on a polar axis" />
+
+<span class="csl-left-margin">1. </span><span class="csl-right-inline">McMurdie, P. J. & Holmes, S. [Phyloseq: An r package for reproducible interactive analysis and graphics of microbiome census data](https://doi.org/10.1371/journal.pone.0061217). *PLoS ONE* **8**, e61217 (2013).</span>
