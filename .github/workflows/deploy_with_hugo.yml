@@ -64,12 +64,30 @@ jobs:
       - name: Install quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
+
+      - name: Install R
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages:
+            any::knitr
+            any::rmarkdown
+            any::downlit
+            any::xml2
+
+      # - name: Install jupyter
+      #   uses: actions/setup-python@v4
+      #   with:
+      #     python-version: '3.x' 
+      #   run: pip install jupyter
+
       - name: quarto render
         run: |
           for f in content/post/*/*.qmd; do
             echo "\n\n Render $f \n\n "
             quarto render $f
           done
+
+
 
 
       - name: Upload quarto pages
