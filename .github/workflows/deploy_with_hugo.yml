@@ -60,6 +60,19 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-hugomod-
 
+
+      - name: Install quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: quarto render
+        run: |
+          quarto render content/post/using_quarto/index.qmd
+
+      - name: Upload quarto page
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: content/post/using_quarto
+
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
