@@ -36,3 +36,58 @@ Now I add a citation to a doi [@doi:10.1371/journal.pone.0061217]
 
 
 
+## R code
+
+I will add some R code that should be executed. 
+For this to work I needed to install R dependencies in my ci script. 
+
+```
+- uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages:
+            any::knitr
+            any::rmarkdown
+            any::downlit
+            any::xml2
+
+```
+Info found [here](https://community.rstudio.com/t/setup-quarto-on-github-actions-doesnt-seem-to-install-everything-needed/156823/2)
+
+Additional packages I install in the R code chunk.
+
+```{r}
+#| label: load-packages
+#| include: false
+
+install.packages("tidyverse")
+install.packages("palmerpenguins")
+
+library(tidyverse)
+library(palmerpenguins)
+```
+
+![](https://raw.githubusercontent.com/quarto-dev/quarto-web/main/docs/get-started/hello/rstudio/lter_penguins.png){style="float:right;" fig-alt="Illustration of three species of Palmer Archipelago penguins: Chinstrap, Gentoo, and Adelie. Artwork by @allison_horst." width="401"}
+
+The `penguins` data from the [**palmerpenguins**](https://allisonhorst.github.io/palmerpenguins "palmerpenguins R package") package contains size measurements for `r nrow(penguins)` penguins from three species observed on three islands in the Palmer Archipelago, Antarctica.
+
+The plot below shows the relationship between flipper and bill lengths of these penguins.
+
+```{r}
+#| label: plot-penguins
+#| warning: false
+#| echo: false
+
+ggplot(
+    penguins,
+    aes(x = flipper_length_mm, y = bill_length_mm)
+) +
+    geom_point(aes(color = species, shape = species)) +
+    scale_color_manual(values = c("darkorange", "purple", "cyan4")) +
+    labs(
+        title = "Flipper and bill length",
+        subtitle = "Dimensions for penguins at Palmer Station LTER",
+        x = "Flipper length (mm)", y = "Bill length (mm)",
+        color = "Penguin species", shape = "Penguin species"
+    ) +
+    theme_minimal()
+```
