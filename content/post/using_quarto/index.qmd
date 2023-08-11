@@ -37,13 +37,12 @@ Out of these, Quarto consistently delivers the most robust output. While it's a 
 
 Ever grappled with placing two images side by side in Word? Or adding referenceable legends to them? [With Quarto, this task is a breeze](https://quarto.org/docs/authoring/figures.html#cross-references). Moreover, you can link to or even create figures directly within the document, eliminating the copying and pasting updated image versions into a draft.
 
-I'm particularly fond of the `cite-doi` option, which is facilitated by the lua filter `doi2cite.lua`. With this, you can just specify a DOI, and it's seamlessly integrated into both the bibliography and the main text [@doi:10.13097/archive-ouverte/unige:159675].
+I'm particularly fond of the `cite-doi` option, which is facilitated by the lua filter `doi2cite.lua`. With this, you can just specify a DOI, and it's seamlessly integrated into both the bibliography and the main text. 
 
-**Here's a bonus:** Markdown text can be effortlessly copied and pasted into ChatGPT for enhancements, without any formatting hiccups.
 
 ## Quarto and Hugo
 
-To use Quarto for blog post I want it to render as markdowns that can be used by hugo / wowchemy. Following the online tutorials I achived this quickly. Take [this post as an example](https://github.com/SilasK/silask.github.io/blob/master/content/post/using_quarto/index.qmd).
+To use Quarto for blog post I want it to render as markdowns that can be used by hugo / wowchemy. Following the online tutorials I achived this quickly. Take [the source for this post as an example](https://github.com/SilasK/silask.github.io/blob/master/content/post/using_quarto/index.qmd).
 
 You can either render the quarto documents localy and include the output markdown in your web page. Howevr,  [as others pointed out](https://www.paulrjohnson.net/2022/09/setting-up-a-hugo-website-with-quarto/), it is easy to forget to render the quarto documents after making a change. 
 
@@ -53,8 +52,6 @@ I've added two rules to my [GitHub Actions](https://github.com/SilasK/silask.git
 
  If you want to do this you will need to install all R or Python dependencies in your CI environment. [See here for more infomration.](https://github.com/quarto-dev/quarto-actions/blob/main/examples/example-03-dependencies.md) 
 
-
-## References
 
 
 
