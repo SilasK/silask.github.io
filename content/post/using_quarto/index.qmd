@@ -1,7 +1,6 @@
 ---
-title: I tried out Quarto
+title: Try out Quarto
 date: "2023-08-10"
-authors: [admin] # this is specific to wowchemy
 categories: 
   - Website
   - Coding
@@ -15,23 +14,49 @@ bibliography:
   - '__from_DOI.bib'
   
 csl: https://raw.githubusercontent.com/citation-style-language/styles/0749a19b8306f2e8dcb9bf1a2e3a6992666030ac/nature.csl
+
+# this is specific to wowchemy
+lastmod: "2023-08-11"
+commentable: true
+authors: [admin] 
 ---
 
 
+## Quarto
 
-## Try out quarto
+Quarto is kind of the next generation of R-markdown. It uses a lot from the pandoc and other tools. Therefore it can also include python code and even run trough a jupyter interface. To learn more about Quarto see <https://quarto.org>.
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+I tried many other tools to create documents/websites:
+- R-markdown
+- Manubot
+- Latex
+- Markdown + pandoc
 
-It is kind of the next generation of R-markdown. But it alows also to run python code in the same document.
+I think quarto has the most rubust output.
+Obviously you can create html documents but also the word output is really good. 
+You can specify a template and so create a word document using your companies fonts and formats.
 
-For blog I will use mainly the mardon features. But I like to use the cite-doi option which is enabled by the lua script `doi2cite.lua`.
+Have you ever tried to put two images side by side in word and add referencable legends to them. In quarto it's really easy + you can link or crate the figures directly in the document. No more copy paste updated versions of images to a working draft. 
 
-I think it's a really cool ecosystem that allows you to create html, and word documents from the same source.
+I like to use the cite-doi option which is enabled by the lua filter `doi2cite.lua`.
 
-You can even specify a template and use it to create a word document.
+You can simply specify a doi and it will be added to the bibliography and the text [@doi:10.1371/journal.pone.0061217].
 
-Now I add a citation to a doi [@doi:10.1371/journal.pone.0061217] 
+
+**Most important** Markdown text can easily be copy pasted to ChatGPT and improved. No worry about formating issues there.
+
+## Quarto and Hugo
+
+You can render a quarto document to a hugo website. See [this post as an example.](https://github.com/SilasK/silask.github.io/blob/master/content/post/using_quarto/index.qmd)
+
+To include the quarto documents in the continous webside build I added two rules to render all quarto documents in the content folder, before rendereing the webpage with hugo. 
+
+Have a look at my [Github workflow file](https://github.com/SilasK/silask.github.io/blob/81e26b2cf8028fd3dedad9c1cd4bebd09d9bf61a/.github/workflows/deploy_with_hugo.yml#L63C1-L78C29)
+
+That side I will probably not use too much code because in the CI intergration.
+
+
+## References
 
 
 
