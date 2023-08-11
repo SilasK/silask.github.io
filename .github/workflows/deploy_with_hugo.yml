@@ -66,12 +66,16 @@ jobs:
 
       - name: quarto render
         run: |
-          quarto render content/post/using_quarto/index.qmd
+          for f in content/post/*/*.qmd; do
+            echo "\n\n Render $f \n\n "
+            quarto render $f
+          done
 
-      - name: Upload quarto page
+
+      - name: Upload quarto pages
         uses: actions/upload-pages-artifact@v1
         with:
-          path: content/post/using_quarto
+          path: content/post
 
       - name: Build with Hugo
         env:

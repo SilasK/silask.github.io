@@ -1,0 +1,38 @@
+---
+title: I tried out Quarto
+date: "2023-08-10"
+authors: [admin] # this is specific to wowchemy
+categories: 
+  - Website
+  - Coding
+format: hugo-md
+
+toc: true
+filters:
+  - ../../../scripts/doi2cite.lua
+  - quarto
+bibliography:
+  - '__from_DOI.bib'
+  
+csl: https://raw.githubusercontent.com/citation-style-language/styles/0749a19b8306f2e8dcb9bf1a2e3a6992666030ac/nature.csl
+---
+
+
+
+## Try out quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+It is kind of the next generation of R-markdown. But it alows also to run python code in the same document.
+
+For blog I will use mainly the mardon features. But I like to use the cite-doi option which is enabled by the lua script `doi2cite.lua`.
+
+I think it's a really cool ecosystem that allows you to create html, and word documents from the same source.
+
+You can even specify a template and use it to create a word document.
+
+Now I add a citation to a doi [@doi:10.1371/journal.pone.0061217] 
+
+
+
+
