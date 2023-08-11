@@ -37,7 +37,7 @@ paginate: 10
 enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
-ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$,\.qmd$]
+ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$,\.qmd$, __from_DOI.bib$]
 permalinks:
   event: '/talk/:slug/'
   tags: '/tag/:slug/'
