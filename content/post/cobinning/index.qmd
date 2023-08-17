@@ -56,9 +56,6 @@ For co-binning we concatenate contigs from multiple samples and map all the read
 If it holds up to rigorous assessment by Mattock and Watson remains to be seen.
 
 Also there are many other questions still open. 
-
-{{< tweet user="fplazaonate" id="1682371799718195201" >}}
-
 For example, should we count multi-mapping for the co-binning approach or to what level of identity should it be filtered? 
 Using unfiltered mapping will likely map reads from different species. Don't taking into account multi-mapping will likely lead to random distribution of the reads and so to weakinging of the co-abundance signal. 
 
