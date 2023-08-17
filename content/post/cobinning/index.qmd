@@ -39,13 +39,14 @@ Therefore I was quite surprises to read the following statement at the end of th
 > While resource expensive, multi-coverage binning is a superior approach and should always be performed over single-coverage binning.
 
 
-Ok, now let's use multiple sample for binning. Inspired by this article I set co-abundance binning as the default in my [**Metagenome-Atlas**] 
+Ok, now let's use multiple sample for binning. Inspired by this article I set co-abundance binning as the default in **Metagenome-Atlas v2.18**. 
+
+It is possible to map the reads from each sample to the contigs of all other samples and use this for binning.
+However, this this ***cross-mapping*** is quite ressource intensive. 
 
 ![Annimation of cross-mapping](cross_mapping.gif)
 
-It is possible to map the reads from each sample to the contigs of all other samples and use this for binning.
-However, this this ***cross-mapping*** is quite ressource intensive. Some would suggest this is the best approach and don't care about scalability. 
-But there is another approach: ***co-binning***, also called _multi-split_ by the authors who first used it [@doi:10.1038/s41587-020-00777-4] .
+Some would suggest this is the best approach and don't care about scalability, but there is another approach: ***co-binning***, also called _multi-split_ by the authors who first used it [@doi:10.1038/s41587-020-00777-4] .
 
 ![Annimation of co-binning](co_binning.gif)
 
@@ -56,10 +57,6 @@ Also there are many other questions still open.
 For example, should we count multi-mapping for the co-binning approach or to what level of identity should it be filtered? 
 Using unfiltered mapping will likely map reads from different species. Don't taking into account multi-mapping will likely lead to random distribution of the reads and so to weakinging of the co-abundance signal. 
 
-
-## Next steps
-
-I've seen that the authors of VAMB developped a new 
 
 ## References
 
