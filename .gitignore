@@ -13,3 +13,4 @@ exampleSite/
 
 
 .hugo_build.lock
+/.luarc.json
