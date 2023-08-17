@@ -1,0 +1,74 @@
+---
+title: Binning with more than one Sample
+date: "2023-08-11"
+lastmod: "2023-08-11"
+categories: 
+  - Website
+  - Coding
+format: hugo-md
+
+toc: true
+filters:
+  - ../../../scripts/doi2cite.lua
+  - quarto
+bibliography:
+  - '__from_DOI.bib'
+  
+csl: https://raw.githubusercontent.com/citation-style-language/styles/0749a19b8306f2e8dcb9bf1a2e3a6992666030ac/nature.csl
+
+# this is specific to wowchemy
+
+commentable: true
+authors: [admin] 
+---
+
+![Timeline of studies that recover genomes from Metagenomes, The plot shows studies that published sets of metagenome-assembled genomes (MAGs). The list is not exhaustive but shows the general trend to increased numbers of MAGs.](MAGstats.pdf)
+
+Recent years we saw an explosion of genomes beeing assembled from megagenomes. Most of the studies assemble and bin each sample individually, because this is the most scalable.
+Maybe it's time to think if this approach is really the best?
+
+In a recent article Jennifer Mattock and Mick Watson[@https://doi.org/10.1038/s41592-023-01934-8] makes a definitive case about the advantages of using multiple samples for metagenomic binning.
+MAGs assembled from single samples contain often hidden contamination. Contamination that is not detected by checkM & co, but is clerly vissible ussing a cross-sample correlation.
+Using the Co-abundance information one can discriminate even between closely related species that would be merged together by single-sample binning. 
+One one hand this is not new. We know that co-abundance is usefull for binning. But on the other hand they clearly drive the point home.
+
+Usually, in bioinformatics methods development, we rarely see that one method is clearly outperforms all other methods.
+Often benchmarks present a list of good tools and the user has to decide which method is the best for his/her data.
+Therefore I was quite surprises to read the following statement at the end of the abstarct:
+
+> While resource expensive, multi-coverage binning is a superior approach and should always be performed over single-coverage binning.
+
+
+Ok, now let's use multiple sample for binning. Inspired by this article I set co-abundance binning as the default in my [**Metagenome-Atlas**] 
+
+![Annimation of cross-mapping](cross_mapping.gif)
+
+It is possible to map the reads from each sample to the contigs of all other samples and use this for binning.
+However, this this ***cross-mapping*** is quite ressource intensive. Some would suggest this is the best approach and don't care about scalability. 
+But there is another approach: ***co-binning***, also called _multi-split_ by the authors who first used it [@doi:10.1038/s41587-020-00777-4] .
+
+![Annimation of co-binning](co_binning.gif)
+
+For co-binning we concatenate contigs from multiple samples and map all the reads to these combined contigs. This way we improve computational efficiency, but still get the benefits of multi-sample binning. This approach worked very good in the variational autoencoders for metagenomic binning (VAMB) [@doi:10.1038/s41587-020-00777-4].
+If it holds up to rigorous assessment by Mattock and Watson remains to be seen.
+
+Also there are many other questions still open. 
+For example, should we count multi-mapping for the co-binning approach or to what level of identity should it be filtered? 
+Using unfiltered mapping will likely map reads from different species. Don't taking into account multi-mapping will likely lead to random distribution of the reads and so to weakinging of the co-abundance signal. 
+
+
+## Next steps
+
+I've seen that the authors of VAMB developped a new 
+
+## References
+
+
+
+
+
+
+
+
+
+
