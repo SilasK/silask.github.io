@@ -66,7 +66,7 @@ If we are already here to think about what could improve metagenomic binning. Th
 Here are my first experiments with using binspreader [@https://doi.org/10.1016/j.isci.2022.104770] for a small metagenome dataset. 
 
 
-![](graph.giff)
+![](graph.gif)
 We can see the assembly graph colored by the infered bins before and after running bin-spreader. Binspreader correctly removes the large circular node on the bottom left, which is a virus and doen't belong to the genome. It also changed the attribution of other contigs. Interestingly it can assign some contigs to multiple bins (colored in dark blue). This makes sense, but challanges a common assumtion that _a contig can only be part of one bin_. I didn't used binspreader with the paired-end reads information. There is still a lot to disovered. 
 
 
