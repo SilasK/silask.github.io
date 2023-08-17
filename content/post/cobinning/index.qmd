@@ -62,6 +62,22 @@ Also there are many other questions still open.
 For example, should we count multi-mapping for the co-binning approach or to what level of identity should it be filtered? 
 Using unfiltered mapping will likely map reads from different species. Don't taking into account multi-mapping will likely lead to random distribution of the reads and so to weakinging of the co-abundance signal. 
 
+## What is next?
+
+If we are already here to think about what could improve metagenomic binning. Then Using the Assembly graph(s) is a logical next step. Different algorithms have been proposed to use the assembly graph for binning. 
+
+Here are my first experiments with using binspreader [@https://doi.org/10.1016/j.isci.2022.104770] for a small metagenome dataset. 
+
+
+![](graph.giff)
+We can see the assembly graph colored by the infered bins before and after running bin-spreader. Binspreader correctly removes the large circular node on the bottom left, which is a virus and doen't belong to the genome. It also changed the attribution of other contigs. Interestingly it can assign some contigs to multiple bins (colored in dark blue). This makes sense, but challanges a common assumtion that _a contig can only be part of one bin_. I didn't used binspreader with the paired-end reads information. There is still a lot to disover. 
+
+
+
+<!--
+I've seen that the developpers of VAMB released version 4 which contains a adversarial autoencoder in adition to the VAMB [@doi:10.1101/2023.02.27.527078]. They propose to run both algorithm and then choose the best bin. -->
+
+
 ## References
 
 
