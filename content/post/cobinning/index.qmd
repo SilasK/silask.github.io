@@ -7,7 +7,7 @@ categories:
   - Coding
 format: hugo-md
 
-toc: true
+toc: false
 filters:
   - ../../../scripts/doi2cite.lua
   - quarto
@@ -22,7 +22,9 @@ commentable: true
 authors: [admin] 
 ---
 
+<!--
 ![Timeline of studies that recover genomes from Metagenomes, The plot shows studies that published sets of metagenome-assembled genomes (MAGs). The list is not exhaustive but shows the general trend to increased numbers of MAGs.](MAGstats.pdf)
+-->
 
 Recent years we saw an explosion of genomes beeing assembled from megagenomes. Most of the studies assemble and bin each sample individually, because this is the most scalable.
 Maybe it's time to think if this approach is really the best?
@@ -39,7 +41,7 @@ Therefore I was quite surprises to read the following statement at the end of th
 > While resource expensive, multi-coverage binning is a superior approach and should always be performed over single-coverage binning.
 
 
-Ok, now let's use multiple sample for binning. Inspired by this article I set co-abundance binning as the default in **Metagenome-Atlas v2.18**. 
+Ok, now let's use multiple sample for binning. Inspired by this article I set co-abundance binning as the default in [**Metagenome-Atlas v2.18**](https://github.com/metagenome-atlas/atlas/releases). 
 
 It is possible to map the reads from each sample to the contigs of all other samples and use this for binning.
 However, this this ***cross-mapping*** is quite ressource intensive. 
@@ -54,9 +56,11 @@ For co-binning we concatenate contigs from multiple samples and map all the read
 If it holds up to rigorous assessment by Mattock and Watson remains to be seen.
 
 Also there are many other questions still open. 
+
+{{< tweet user="fplazaonate" id="1682371799718195201" >}}
+
 For example, should we count multi-mapping for the co-binning approach or to what level of identity should it be filtered? 
 Using unfiltered mapping will likely map reads from different species. Don't taking into account multi-mapping will likely lead to random distribution of the reads and so to weakinging of the co-abundance signal. 
-
 
 ## References
 
