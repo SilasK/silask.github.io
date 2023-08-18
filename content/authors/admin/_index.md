@@ -11,8 +11,8 @@ role: Metagenome researcher
 
 # Organizations/Affiliations
 organizations:
-- name: University of Geneva
-  url: ""
+- name: Developper of Metagenome-Atlas
+  url: "https://metagenome-atlas.github.io/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: Husband, Father & Metagenome researcher
@@ -43,7 +43,13 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: "mailto:silas.kieser@gmail.ch" #'#contact'  # For a direct email link, use "mailto:test@example.org".
+  link: "mailto:silas.kieser@gmail.com" #'#contact'  # For a direct email link, use "mailto:test@example.org".
+- icon: mastodon
+  icon_pack: fab
+  link: https://mstdn.science/@silask
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/silas-kieser-9016ba5a
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/SilasKieser

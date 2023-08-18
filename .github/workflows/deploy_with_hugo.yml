@@ -33,7 +33,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.111.3
+      HUGO_VERSION: 0.115.4
     steps:
       - name: Install Hugo CLI
         run: |
@@ -59,6 +59,23 @@ jobs:
           key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
           restore-keys: |
             ${{ runner.os }}-hugomod-
+
+
+      - name: Install quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: quarto render
+        run: |
+          for f in content/post/*/*.qmd; do
+            echo "\n\n Render $f \n\n "
+            quarto render $f
+          done
+
+
+      - name: Upload quarto pages
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: content/post
 
       - name: Build with Hugo
         env:

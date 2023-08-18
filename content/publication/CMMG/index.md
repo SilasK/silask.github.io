@@ -47,7 +47,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
+url_pdf: 'https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1009947&type=printable'
 url_code: 'https://github.com/SilasK/CMMG'
 url_dataset: 'https://ezmeta.unige.ch/CMMG'
 url_poster: ''
@@ -81,3 +81,18 @@ projects:
 ---
 
 ![graphical_abstract](graphical_abstract.tiff)
+
+
+# Awards
+
+The publication was selected as [Remarkable output 2022 by the Swiss bioinformatic institute](https://www.sib.swiss/about/news/10966-sib-remarkable-outputs-2022?utm_content=RO-Zdobnov#genome-catalog).
+
+
+What the committee said about the work:
+> “An excellent functional and taxonomic summary of the mouse gut metagenome,
+> built using a solid bioinformatics pipeline.
+> This is a great resource for researchers translating results from mouse to human.”
+
+
+{{< tweet user="ISBSIB" id="1646509973172809731" >}}
+

@@ -1,0 +1,58 @@
+---
+title: Try out Quarto
+date: "2023-08-10"
+categories: 
+  - Website
+  - Coding
+format: hugo-md
+
+toc: true
+filters:
+  - ../../../scripts/doi2cite.lua
+  - quarto
+bibliography:
+  - '__from_DOI.bib'
+  
+csl: https://raw.githubusercontent.com/citation-style-language/styles/0749a19b8306f2e8dcb9bf1a2e3a6992666030ac/nature.csl
+
+# this is specific to wowchemy
+lastmod: "2023-08-11"
+commentable: true
+authors: [admin] 
+---
+
+
+## Quarto
+
+Quarto is the successor to R-markdown. Drawing heavily from tools like Pandoc, it not only supports R but also allows the inclusion and execution of Python code, even through a Jupyter interface. To dive deeper into Quarto, visit [Quarto's official website](https://quarto.org).
+
+I tried many other tools to create documents/websites:
+- R-markdown
+- Manubot
+- Latex
+- Markdown combined with Pandoc
+- And now Quarto
+
+Out of these, Quarto consistently delivers the most robust output. While it's a given that you can generate HTML documents, I was pleasantly surprised by the quality of its Word outputs. With Quarto, you can designate a template and produce a Word document tailored to your company's specific fonts and formats.
+
+Ever grappled with placing two images side by side in Word? Or adding referenceable legends to them? [With Quarto, this task is a breeze](https://quarto.org/docs/authoring/figures.html#cross-references). Moreover, you can link to or even create figures directly within the document, eliminating the copying and pasting updated image versions into a draft.
+
+I'm particularly fond of the `cite-doi` option, which is facilitated by the lua filter `doi2cite.lua`. With this, you can just specify a DOI, and it's seamlessly integrated into both the bibliography and the main text. 
+
+
+## Quarto and Hugo
+
+To use Quarto for blog post I want it to render as markdowns that can be used by hugo / wowchemy. Following the online tutorials I achived this quickly. Take [the source for this post as an example](https://github.com/SilasK/silask.github.io/blob/master/content/post/using_quarto/index.qmd).
+
+You can either render the quarto documents localy and include the output markdown in your web page. Howevr,  [as others pointed out](https://www.paulrjohnson.net/2022/09/setting-up-a-hugo-website-with-quarto/), it is easy to forget to render the quarto documents after making a change. 
+
+Because for blog posts I will mainly use the markdown features and not running code, I decided to render the quarto documents trough Github Actions.
+
+I've added two rules to my [GitHub Actions](https://github.com/SilasK/silask.github.io/blob/81e26b2cf8028fd3dedad9c1cd4bebd09d9bf61a/.github/workflows/deploy_with_hugo.yml#L63C1-L78C29), to render quarto documents before building the webpage with Hugo. Now everithing is automated. 
+
+ If you want to do this you will need to install all R or Python dependencies in your CI environment. [See here for more infomration.](https://github.com/quarto-dev/quarto-actions/blob/main/examples/example-03-dependencies.md) 
+
+
+
+
+
