@@ -2,12 +2,12 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Discussion about centered log ratio transformation"
+title: "Science et foi: Union insensée?"
 subtitle: "Un blog basé sur le présentation donné aux Big Questions 2022."
 summary: ""
 authors: []
 tags: []
-categories: [Français]
+categories: [Français,apologetics]
 date: 2023-08-12
 lastmod: 2023-08-12
 featured: false
@@ -30,13 +30,85 @@ projects: []
 ---
 
 
-_Note: Ce blog est basé sur une présentation donné aux Big Questions 2022._
+_Note: Ce blog est adapté d'une présentation donné aux Big Questions 2022._
 
 
 
-<!-- # Science et Foi: Union insensée?
--->
-## Le conflit entre science et réligion est seulement superficielle
+
+
+Quand J'entends “Science et foi:  union insensé ?” je pense tout de suite à la science créationniste.  Ces chrétiens fondamentalistes  qui pense que la terre était créé en moins d'une semaine il y a pas plus que 6000 ans.  et qui essaie de prouver ça   à la manière “scientifique”.
+
+
+Par exemple ici cette musée en forme de arche de Noë. 
+
+![Une reconstitution de l'arche de Noé dans un parc à thème créationniste. Source: Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Ark_Encounter_005.jpg/800px-Ark_Encounter_005.jpg)
+
+
+
+Comment peut-on lui en vouloir quand Richard Darwkins et d’autres athées commence à manifester contre ça. 
+
+> Je pense que l'on peut affirmer que la foi est l'un des grands maux du monde, comparable au virus de la variole mais plus difficile à éradiquer.
+> La foi, étant une croyance qui n'est pas fondée sur des preuves, est le vice principal de toute religion.
+> -- Richard Dawkins
+
+
+Il insite que on doit être athé et pas seulement athé, mais un athé militant et montrer peu de tolérance envers des croyants.
+
+Et comme souvent se sont les extrèmes qui obtiendrent le plus d’attention dans les médias. 
+
+Moi je pense que c’est seulement un conflit superficiel.  Qui vient du fait qu’on traite la science et la foi comme la même domaine.  C'est à dire que les croyants traitent la Bible comme un livre scientifique.
+
+On est fait cette erreur de catégorie.
+Le conflit s'évapore et on peut apprécier ces textes antiques pour ceux qui sont vraiment: une réponse à la question “D’où est-ce que je vien?” Cette réponse n’est formulée pas en théories scientifiques, même pas en théories scientifiques primitives, mais en histoires. Ce sont histoires qui ont formé la culture de l'Oxxident.
+
+Jordan Peterson, Un psychologue et oradeur internationalement connu a dit que:
+
+«La Bible contient les histoires les plus influentes de l'humanité. 
+La connaissance de ces histoires est essentielle à une compréhension profonde de la culture occidentale. »
+
+
+
+## Critique Dawkins
+
+Revenons à Richard Dawkins. 
+
+Si je le comprends bien, il ne critique pas seulement les créationnistes mais, bien tout les croyants.  Il accusent les croyants d’avoir une fois aveugle et des pas chercher des preuves. 
+
+Qui a dit que la foi est aveugle?
+
+Je ne sais pas comment c’st pour d’autre réligion mais les autheurs de la bible incites à considerer les preufes et rencontrer les temoins occulsires.
+
+Pour ma part j’ai toujour éssayé de mettre ma foi en question et de cherchr des arguments et des preufes.
+
+1.	Debuke Pour en finir avec Dieu
+J’ai aussi écouter les arguments des athés. 
+Pour reprendre l’argument principal que Richard Dawkins defend dans de son livre “pour en finir avec Dieu” c’est le suivant:
+
+Si on explique la complexité dans l’univers avec un créateur on est tout de suite confronté ave le problème plus grande d’expliquer qui à crée le créateur. 
+
+Dawkins est très attachée à la “simplicité” et on effet au tant que scientifique on prefère une hypothèse plus simple à une hypothèse plus compliquée, étant donné que les deux arrivent à expliquer les données. Dawkins pense que la théorie de l’évolution arrive a expliquer comment la vie à developé du plus simple au plus complexe. 
+
+Je ne sait pas pourquoi il ne considère pas l’option que Dieu à crée le monde par des méchanismes naturelles qui incluent l’evolution, 
+en tout cas il rejette l’hypothèse d’un créateur parce que on ne sait pas qui à créé le créateur.
+
+Maintenant je ne connait personne qui croit à un Dieu qui est créé. Soit Dieu existe, soit il n’existe pas, mais personne pense que Dieu était crée. Et par qui?
+
+Apparemment Dawkins définit Dieu et la foi à ça manière et les critique en suite. 
+
+Je ne sias pas si c’est exprès qu’il utilise des définitons qui lui arrange
+ou s’il est lui même en est convaincu. Dans le deuxième cas ça serait de la foi aveugle de sa part. 
+
+Je pense je ne suis pas le seul qui est dérangé par le militantisme de Dawkins et d’autre athés qui pensent que tout forme de foi religieuse doite être éradique. 
+
+
+
+
+
+
+
+
+## Le conflit entre science et Réligion est seulement superficielle
+
 
 
 
