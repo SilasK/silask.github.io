@@ -66,59 +66,6 @@ Il y a aussi des point de vus plus tolérants.  Par exemple Emmanuel Macron, le 
 
 
 
-
-
-<!-- **Témoignage personnel** 
-
-J’ai deux enfant un garçon de 3 ans et demi et une fille de presque une année.
-Un jour mon fils nous demande «Elle était où ma soeur avant d’être dans le ventre de maman?» 
-La fameuse question d’u viennent les bébés.  
-
-On a hesité mais on a quand mêmem pensé l’histoire avec les cygoines est un peu démodé.
-
-et du coup on a choisi l’explication biologique. Maintenant il arrive tres bien à dire “Spermatozoide”
-
-Mais on a insité qu’il étati voulu. 
-
-Parce que la question: « D’où est ce que je viens? » et liée aux questions profondes « qui suis-je » et « pour quoi je suis là? » 
-La question de la sens de vie.
-
-
-
-Par rapport aux grand questions je vaux affirmer deux points :
-
-1.	La science peut pas vraiment y repondre
-2.	Tout le monde à des réponses
-
-### La science peut pas vraiment y repondre
-La science peut nous donner une explication assez conclusive comment l’humain est apparu sur terre,
- mais est ce que c’est toute la réponse ?
-
-
-Un athé dirait peut-être que nous on est apparu à travairs l’évolution est c’est tout. 
-On est des singes évoulé et et qu’il n’y a pas plus de sense à notre vie que celui que nou on invente. 
-
-Mais est-ce que c’est la conclusion « c’est tout »
-de la science à la quelle il adhère ou est ce que c’est à cause de son athéisme.
-
-Bien sûre je ne veux pas contradire sa science mais s’il dit que que la science et la sulle qui peut donner des réponse à des questions il fai aussi une affirmation de foi.
-
-La science peut donner une éclerage sur les grandes questions de la vie mais elle ne peut pas vraiment y repondre. 
-
-### Tout le monde en a des réponse à ces questions
-
-L’ensomble des réponses aux grand questions de la vie on appelle « vision de monde ». 
-
-La visoin de monde est quelque chose de tout à fait naturelle et ça. 
-Il y a même des groupes de recherche qui étudient çela. 
-
-Tout le monde on a un. Chaq’un à des réponses à ses grandes questions. Soit elle est formulée de manire consient soit elle est aprit des parents ou de la societé. Même si on est athé ou agnostique. 
-
-Finallement ce n’est pas tant la question Science et foi ?
-
-Quelle vision du monde est plus compatible avec la vision du monde
-
--->
 # Science et foi forme une intersection stimmulante
 
 ## La religion fournit le cadre conceptuel dans lequel la science peut s'épanouir. 
@@ -230,9 +177,66 @@ Encourage à réflechir de maniere raisonable, de manière scientifique si on ve
 
 
 
+<!-- **Témoignage personnel** 
+
+J’ai deux enfant un garçon de 3 ans et demi et une fille de presque une année.
+Un jour mon fils nous demande «Elle était où ma soeur avant d’être dans le ventre de maman?» 
+La fameuse question d’u viennent les bébés.  
+
+On a hesité mais on a quand mêmem pensé l’histoire avec les cygoines est un peu démodé.
+
+et du coup on a choisi l’explication biologique. Maintenant il arrive tres bien à dire “Spermatozoide”
+
+Mais on a insité qu’il étati voulu. 
+
+Parce que la question: « D’où est ce que je viens? » et liée aux questions profondes « qui suis-je » et « pour quoi je suis là? » 
+La question de la sens de vie.
+
+
+
+Par rapport aux grand questions je vaux affirmer deux points :
+
+1.	La science peut pas vraiment y repondre
+2.	Tout le monde à des réponses
+
+### La science peut pas vraiment y repondre
+La science peut nous donner une explication assez conclusive comment l’humain est apparu sur terre,
+ mais est ce que c’est toute la réponse ?
+
+
+Un athé dirait peut-être que nous on est apparu à travairs l’évolution est c’est tout. 
+On est des singes évoulé et et qu’il n’y a pas plus de sense à notre vie que celui que nou on invente. 
+
+Mais est-ce que c’est la conclusion « c’est tout »
+de la science à la quelle il adhère ou est ce que c’est à cause de son athéisme.
+
+Bien sûre je ne veux pas contradire sa science mais s’il dit que que la science et la sulle qui peut donner des réponse à des questions il fai aussi une affirmation de foi.
+
+La science peut donner une éclerage sur les grandes questions de la vie mais elle ne peut pas vraiment y repondre. 
+
+### Tout le monde en a des réponse à ces questions
+
+L’ensomble des réponses aux grand questions de la vie on appelle « vision de monde ». 
+
+La visoin de monde est quelque chose de tout à fait naturelle et ça. 
+Il y a même des groupes de recherche qui étudient çela. 
+
+Tout le monde on a un. Chaq’un à des réponses à ses grandes questions. Soit elle est formulée de manire consient soit elle est aprit des parents ou de la societé. Même si on est athé ou agnostique. 
+
+Finallement ce n’est pas tant la question Science et foi ?
+
+Quelle vision du monde est plus compatible avec la vision du monde
+
+-->
+
+
 
 
 <!--
+
+
+old
+
 Qui ferais confidence à un cerveau d’un singe?
 – Charles Darwin
 
@@ -277,3 +281,5 @@ Même si la science peut expliquer comment la vie a commencé, elle ne peut pas 
 
 _Note_: À développer ce point.
 -->
+
+
