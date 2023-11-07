@@ -64,10 +64,9 @@ Qui vient du fait qu’on traite la science et la foi comme la même domaine.
 C'est à dire que les créationnistes traitent la Bible comme un livre scientifique,
 et Dawkins pense que tout les croyants pensent de la même manière.
 
+Je vais écrire un autre blog sur les « arguments » de Dawkins et que ces remarques sont aussi souvent des affirmations de foi.
 Je pense je ne suis pas le seul qui est dérangé par le militantisme de Dawkins et d’autre athéistes
 qui pensent que tout forme de foi religieuse doit être éradique.
-
-Je vais écrire un autre blog sur les "arguments" de Dawkins et que ces remarques sont aussi souvent des affirmations de foi.
 
 Est-ce que science et foi ne sont ils pas **deux domaines complètement différents**?
 Je pense au contraire que Science et foi forme une intersection stimulante.
@@ -197,24 +196,29 @@ La cause de l’univers doit alors être en dehors du temps et de l’espace, im
 <!-- **Témoignage personnel** -->
 
 J'ai deux enfants, un garçon de 3 ans et demi et une fille de presque un an.
-Un jour, mon fils nous demande:
-"Elle était où ma sœur avant d'être dans le ventre de maman?" – La fameuse question d'où viennent les bébés.
+Un jour, mon fils nous demande :
+
+« Elle était où ma sœur avant d'être dans le ventre de maman ? » 
+
+– La fameuse question d'où viennent les bébés.
+
 On a hésité, mais on a quand même pensé que l'histoire avec les cigognes est un peu démodée.
 Et du coup, on a choisi l'explication biologique.
-Maintenant, il arrive très bien à dire "spermatozoïde".
+Maintenant, il arrive très bien à dire « spermatozoïde ».
 Mais on a insisté qu'il était voulu.
-Parce que la question "D'où est-ce que je viens?" est liée aux questions profondes "Qui suis-je?" et "Pourquoi suis-je là?" 
+Parce que la question « D'où est-ce que je viens ? » est liée aux questions profondes « Qui suis-je ? » et « Pourquoi suis-je là ? » 
 – La question du sens de la vie.
 Et en fin de compte, ces questions sont plus importantes (pour l'enfant) que de connaître la biologie de la reproduction.
 
 La science peut nous donner une explication assez concluante sur la manière dont l'humain est apparu sur terre, mais est-ce que c'est toute la réponse ? Un athée dirait peut-être que nous sommes apparus à travers l'évolution et que c'est tout.
 Nous sommes des singes évolués et il n'y a pas plus de sens à notre vie que celui que nous inventons.
-Mais est-ce que c'est la conclusion "c'est tout" de la science à laquelle il adhère, ou est-ce que c'est à cause de son athéisme?
+Mais est-ce que c'est la conclusion « c'est tout » de la science à laquelle il adhère, ou est-ce que c'est à cause de son athéisme?
 Bien sûr, je ne veux pas contredire sa science, mais s'il dit que la science est la seule qui peut donner des réponses à des questions, il fait aussi une affirmation de foi.
 La science peut apporter des éclairages sur les grandes questions de la vie, mais elle ne peut pas vraiment y répondre.
 
 Ainsi la science ne suffit pas pour répondre aux questions les plus importantes de la vie.
 C'est pourquoi Emmanuel Macron, le président français, souhaite une coexistence pacifique entre la science et la foi.
+
 
 > la science et Dieu, la raison et la religion peuvent donc vivre côte à côte, parfois même se nourrir.
 > Cela est même souhaitable tant aspiration à la raison et besoin de transcendance cohabitent en chacun de nous.
@@ -225,20 +229,19 @@ C'est pourquoi Emmanuel Macron, le président français, souhaite une coexistenc
 
 ### Tout le monde en a des réponse à ces questions
 
-L'ensemble des réponses aux grandes questions de la vie s'appelle une "vision du monde".
+L'ensemble des réponses aux grandes questions de la vie s'appelle une « vision du monde ».
 La vision du monde est quelque chose de tout à fait naturel.
 Il y a même des groupes de recherche qui étudient cela.
 Tout le monde en a une.
 Chacun a des réponses à ses grandes questions, que ce soit de manière consciente ou acquise des parents ou de la société, même si l'on est athée ou agnostique.
-Finalement, la question n'est pas tant "Science et foi ?" mais plutôt "Quelle vision du monde est plus compatible avec la vision du monde ?"
+Finalement, la question n'est pas tant _Science ou foi_ mais plutôt Quelle vision du monde est plus compatible avec la vision du monde ?
 
 
 
 **Conclusion**
 
 Je pense que la question de si Dieu existe est énormément importante et il vaut la peine d'y réfléchir.
-
-Je vous encourage à réfléchir de manière raisonnable, de manière "scientifique" si vous le souhaitez.
+Je vous encourage à réfléchir de manière raisonnable, de manière « scientifique » si vous le souhaitez.
 
 
 
