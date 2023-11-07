@@ -31,9 +31,6 @@ projects: []
 
 
 
-
-# HPC Server: The tricks you need to know
-
 Connecting to a high-performance computing (HPC) server might seem daunting at first.
 However, with the right tools and guidance, it can be a straightforward process.
 This blog post aims to demystify the connection process, making it accessible to both novices and seasoned users.
@@ -62,20 +59,15 @@ If you flow the tutorial above, you should be able to connect to the server, cre
 ```bash
 #!/usr/bin/env bash
 
-set -euo pipefail
+set -euo pipefail # This line makes the script halt if any command fails, quite useful to avoid errors
 
 echo "Hello World!"
 ```
 Save the script as `hello.sh` and run it.
-Go to the terminal and make the script executable:
+Go to the terminal and make the script executable, then run it:
 
 ```bash
 chmod +x hello.sh
-```
-
-Now run the script:
-
-```bash
 ./hello.sh
 ```
 
