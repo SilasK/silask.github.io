@@ -72,8 +72,6 @@ Est-ce que science et foi ne sont-ils pas **deux domaines complètement différe
 Je pense, au contraire, que Science et foi forment une intersection stimulante.
 
 
-Here is your text with improved formatting:
-
 ## 1. La religion fournit le cadre conceptuel dans lequel la science peut s'épanouir.
 
 L'entreprise scientifique est basée sur certaines hypothèses qui ne peuvent pas être prouvées scientifiquement, par exemple :
