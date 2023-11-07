@@ -35,9 +35,9 @@ Mon point de vue a évolué depuis sur certains détails._
 
 {{< toc >}}
 
-Quand j'entends *« Science et foi : union insensée ? »*, je pense tout de suite à la science créationniste.
+Quand j'entends *« Science et foi : union insensée ? »*, je pense tout de suite à la science créationniste.
 Ces chrétiens fondamentalistes qui pensent que la terre a été créée en moins d'une semaine il y a pas plus que 6000 ans.
-Et qui essaient de le prouver de manière « scientifique ».
+Et qui essaient de le prouver de manière « scientifique ».
 Ils publient dans des journaux scientifiques et construisent des musées.
 Par exemple, ici, ce musée en forme d'arche de Noé.
 
@@ -64,7 +64,7 @@ Qui vient du fait qu'on traite la science et la foi comme le même domaine.
 C'est-à-dire que les créationnistes traitent la Bible comme un livre scientifique,
 et Dawkins pense que tous les croyants pensent de la même manière.
 
-Je vais écrire un autre blog sur les « arguments » de Dawkins et que ces remarques sont aussi souvent des affirmations de foi.
+Je vais écrire un autre blog sur les « arguments » de Dawkins et que ces remarques sont aussi souvent des affirmations de foi.
 Je pense que je ne suis pas le seul qui est dérangé par le militantisme de Dawkins et d'autres athées
 qui pensent que toute forme de foi religieuse doit être éradiquée.
 
@@ -196,20 +196,20 @@ La cause de l’univers doit alors être en dehors du temps et de l’espace, im
 J'ai deux enfants, un garçon de 3 ans et demi et une fille de presque un an.
 Un jour, mon fils nous demande :
 
-« Elle était où ma sœur avant d'être dans le ventre de maman ? » 
+« Elle était où ma sœur avant d'être dans le ventre de maman ? » 
 
 La fameuse question d'où viennent les bébés.
 On a hésité, mais on a quand même pensé que l'histoire avec les cigognes est un peu démodée.
 Et du coup, on a choisi l'explication biologique.
-Maintenant, il arrive très bien à dire « spermatozoïde ».
+Maintenant, il arrive très bien à dire « spermatozoïde ».
 Mais on a insisté qu'il était voulu.
-Parce que la question « D'où est-ce que je viens ? » est liée aux questions profondes « Qui suis-je ? » et « Pourquoi suis-je là ? » 
+Parce que la question « D'où est-ce que je viens ? » est liée aux questions profondes « Qui suis-je ? » et « Pourquoi suis-je là ? » 
 – La question du sens de la vie.
 Et en fin de compte, ces questions sont plus importantes (pour l'enfant) que de connaître la biologie de la reproduction.
 
 La science peut nous donner une explication assez concluante sur la manière dont l'humain est apparu sur terre, mais est-ce que c'est toute la réponse ? Un athée dirait peut-être que nous sommes apparus à travers l'évolution et que c'est tout.
 Nous sommes des singes évolués et il n'y a pas plus de sens à notre vie que celui que nous inventons.
-Mais est-ce que c'est la conclusion « c'est tout » de la science à laquelle il adhère, ou est-ce que c'est à cause de son athéisme?
+Mais est-ce que c'est la conclusion « c'est tout » de la science à laquelle il adhère, ou est-ce que c'est à cause de son athéisme?
 Bien sûr, je ne veux pas contredire sa science, mais s'il dit que la science est la seule qui peut donner des réponses à des questions, il fait aussi une affirmation de foi.
 La science peut apporter des éclairages sur les grandes questions de la vie, mais elle ne peut pas vraiment y répondre.
 
@@ -226,7 +226,7 @@ C'est pourquoi Emmanuel Macron, le président français, souhaite une coexistenc
 
 ### Tout le monde en a des réponse à ces questions
 
-L'ensemble des réponses aux grandes questions de la vie s'appelle une « vision du monde ».
+L'ensemble des réponses aux grandes questions de la vie s'appelle une « vision du monde ».
 La vision du monde est quelque chose de tout à fait naturel.
 Il y a même des groupes de recherche qui étudient cela.
 Tout le monde en a une.
@@ -238,7 +238,7 @@ Finalement, la question n'est pas tant _Science ou foi_ mais plutôt Quelle visi
 **Conclusion**
 
 Je pense que la question de si Dieu existe est énormément importante et il vaut la peine d'y réfléchir.
-Je vous encourage à réfléchir de manière raisonnable, de manière « scientifique » si vous le souhaitez.
+Je vous encourage à réfléchir de manière raisonnable, de manière « scientifique » si vous le souhaitez.
 
 
 
