@@ -30,24 +30,25 @@ projects: []
 
 ![](title.png)
 
-_Note: Ce blog est adapté d'une présentation donné aux Big Questions 2022.
-Mon point de vue a évolue depuis sur certain détails._
+_Note : Ce blog est adapté d'une présentation donnée aux Big Questions 2022.
+Mon point de vue a évolué depuis sur certains détails._
 
 {{< toc >}}
 
-Quand J'entends *“Science et foi: union insensé ?”* je pense tout de suite à la science créationniste.
+Quand j'entends *« Science et foi : union insensée ? »*, je pense tout de suite à la science créationniste.
 Ces chrétiens fondamentalistes qui pensent que la terre a été créée en moins d'une semaine il y a pas plus que 6000 ans.
-Et qui essaient de prouver ça de la manière “scientifique”.
+Et qui essaient de le prouver de manière « scientifique ».
 Ils publient dans des journaux scientifiques et construisent des musées.
-Par exemple ici cette musée en forme de arche de Noé.
+Par exemple, ici, ce musée en forme d'arche de Noé.
+
 
 
 ![ArkEncounter](https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Noah%27s_Ark_Encounter.jpg/1024px-Noah%27s_Ark_Encounter.jpg 
 "Une reconstitution de l'arche de Noé dans un parc à thème créationniste.
 Source: Kaleeb18, Wikipedia" )
 
-Comment peut-on leur en vouloir quand Richard Dawkins, un fervent critique de la religion, et d’autres athées commencent à manifester contre ça?
 
+Comment peut-on leur en vouloir quand Richard Dawkins, un fervent critique de la religion, et d'autres athées commencent à manifester contre ça?
 
 > Je pense que l'on peut affirmer que la foi est l'un des grands maux du monde,
 > comparable au virus de la variole mais plus difficile à éradiquer.
@@ -58,21 +59,22 @@ Comment peut-on leur en vouloir quand Richard Dawkins, un fervent critique de la
 Évidemment j'ai présenté ici les points de vue les plus extrêmes.
 Mais c'est eux qui obtiennent le plus d'attention dans les médias.
 
-
-Moi je pense que c’est seulement un **conflit superficiel**.
-Qui vient du fait qu’on traite la science et la foi comme la même domaine.
-C'est à dire que les créationnistes traitent la Bible comme un livre scientifique,
-et Dawkins pense que tout les croyants pensent de la même manière.
+Moi je pense que c'est seulement un **conflit superficiel**.
+Qui vient du fait qu'on traite la science et la foi comme le même domaine.
+C'est-à-dire que les créationnistes traitent la Bible comme un livre scientifique,
+et Dawkins pense que tous les croyants pensent de la même manière.
 
 Je vais écrire un autre blog sur les « arguments » de Dawkins et que ces remarques sont aussi souvent des affirmations de foi.
-Je pense je ne suis pas le seul qui est dérangé par le militantisme de Dawkins et d’autre athéistes
-qui pensent que tout forme de foi religieuse doit être éradique.
+Je pense que je ne suis pas le seul qui est dérangé par le militantisme de Dawkins et d'autres athées
+qui pensent que toute forme de foi religieuse doit être éradiquée.
 
-Est-ce que science et foi ne sont ils pas **deux domaines complètement différents**?
-Je pense au contraire que Science et foi forme une intersection stimulante.
+Est-ce que science et foi ne sont-ils pas **deux domaines complètement différents**?
+Je pense, au contraire, que Science et foi forment une intersection stimulante.
+
+
+Here is your text with improved formatting:
 
 ## 1. La religion fournit le cadre conceptuel dans lequel la science peut s'épanouir.
-
 
 L'entreprise scientifique est basée sur certaines hypothèses qui ne peuvent pas être prouvées scientifiquement, par exemple :
 - la nature ordonnée du monde extérieur
@@ -81,9 +83,7 @@ L'entreprise scientifique est basée sur certaines hypothèses qui ne peuvent pa
 
 La science ne pourrait même pas exister sans ces hypothèses,
 et pourtant ces hypothèses ne peuvent pas être prouvées scientifiquement.
-Ce sont des hypothèses philosophiques qui, 
-curieusement, font partie intégrante d'une vision chrétienne du monde.
-
+Ce sont des hypothèses philosophiques qui, curieusement, font partie intégrante d'une vision chrétienne du monde.
 
 La science dans ce contexte-là je désigne les sciences modernes.
 Les sciences modernes sont une institution culturelle construite vers le 16e siècle.
@@ -92,7 +92,7 @@ la science moderne est l'enfant de la civilisation européenne[^1].
 Pourquoi cela est-il ainsi?
 
 
-[^1]: Avec du recul, ce ci est une petit exagération https://en.wikipedia.org/wiki/Christianity_and_science#History
+[^1]: Avec du recul, ceci est une petite exagération, vois aussi [Christianity and science sur wikipedia ](https://en.wikipedia.org/wiki/Christianity_and_science#History)).
 
 Cela est largement dû à la contribution unique de la foi chrétienne à la culture occidentale.Contrairement aux religions panthéistes ou animistes,
 le christianisme ne considère pas le monde comme divin ou habité par des esprits,
@@ -166,11 +166,11 @@ Qu’en pensez-vous ? Hawking a réussi un coup de maître, il fait trois fautes
 
 1. Parce qu’il y a quelque chose, l’univers se crée à partir de Rien. 
    Donc il n’y a rien ou il y a quelque chose ?
-2. La deuxième c’est l’autocréation, un concept qui est complètement illogique.
+2. La deuxième c’est l’auto-création, un concept qui est complètement illogique.
 
    Si on dit que _X_ crée _Y_, ça veut dire que si on a _X_ on peut aussi arriver à _Y_.
 
-   L’autocréation ça veut dire que si on a _X_ on va avoir _X_.
+   L’auto-création ça veut dire que si on a _X_ on va avoir _X_.
 
 
 3. La troisième point où Hawking se trompe c’est en disant la loi de la gravité cause l’univers.
