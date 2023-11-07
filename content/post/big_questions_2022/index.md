@@ -50,6 +50,7 @@ Comment peut-on leur en vouloir quand Richard Dawkins, un fervent critique de la
 > Je pense que l'on peut affirmer que la foi est l'un des grands maux du monde,
 > comparable au virus de la variole mais plus difficile à éradiquer.
 > La foi, étant une croyance qui n'est pas fondée sur des preuves, est le vice principal de toute religion.
+> 
 > -- Richard Dawkins
 
 <!--
@@ -64,7 +65,8 @@ Il y a aussi des points de vue plus tolérants.
 
 > la science et Dieu, la raison et la religion peuvent donc vivre côte à côte, parfois même se nourrir.
 > Cela est même souhaitable tant aspiration à la raison et besoin de transcendance cohabitent en chacun de nous.
-> – Emmanuel Macron 
+> 
+> -- Emmanuel Macron 
 
 
 
@@ -157,7 +159,8 @@ Hawking a répondu à cette question dans son livre _Y a-t-il un grand architect
 > La création spontanée est la raison pour laquelle quelque chose existe,
 > pour laquelle l'univers existe, pour laquelle nous existons.
 > Il n'est pas nécessaire d'invoquer Dieu pour activer l'univers
-> –- Stephen Hawking
+>
+> -- Stephen Hawking
 
 Qu’en pensez-vous ? Hawking a réussi un coup de maître, il fait trois fautes de logique dans une seule phrase :
 
