@@ -28,6 +28,7 @@ image:
 projects: []
 ---
 
+![](title.png)
 
 _Note: Ce blog est adapté d'une présentation donné aux Big Questions 2022.
 Mon point de vue a évolue depuis sur certain détails._
@@ -41,8 +42,8 @@ Ils publient dans des journaux scientifiques et construisent des musées.
 Par exemple ici cette musée en forme de arche de Noé.
 
 
-![Une reconstitution de l'arche de Noé dans un parc à thème créationniste.
-Source: Kaleeb18, Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Noah%27s_Ark_Encounter.jpg/1024px-Noah%27s_Ark_Encounter.jpg)
+![ArkEncounter](https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Noah%27s_Ark_Encounter.jpg/1024px-Noah%27s_Ark_Encounter.jpg 
+"Une reconstitution de l'arche de Noé dans un parc à thème créationniste. Source: Kaleeb18, Wikipedia" )
 
 Comment peut-on leur en vouloir quand Richard Dawkins, un fervent critique de la religion, et d’autres athées commencent à manifester contre ça?
 
@@ -53,27 +54,23 @@ Comment peut-on leur en vouloir quand Richard Dawkins, un fervent critique de la
 > 
 > -- Richard Dawkins
 
-<!--
-Je pense que c’est faux et Dawkins ne voit pas combien de ses remarques sont aussi des affirmations de foi.
-J’ai préparé toute une partie sur à quel point ces arguments ne tiennent pas la route.
--->
-
 Évidemment j'ai présenté ici les points de vue les plus extrêmes.
-
-Il y a aussi des points de vue plus tolérants.
- Par exemple Emmanuel Macron, le président de la France, a dit:
-
-> la science et Dieu, la raison et la religion peuvent donc vivre côte à côte, parfois même se nourrir.
-> Cela est même souhaitable tant aspiration à la raison et besoin de transcendance cohabitent en chacun de nous.
-> 
-> -- Emmanuel Macron 
+Mais c'est eux qui obtiennent le plus d'attention dans les médias.
 
 
+Moi je pense que c’est seulement un **conflit superficiel**.
+Qui vient du fait qu’on traite la science et la foi comme la même domaine.
+C'est à dire que les créationnistes traitent la Bible comme un livre scientifique,
+et Dawkins pense que tout les croyants pensent de la même manière.
 
+Je pense je ne suis pas le seul qui est dérangé par le militantisme de Dawkins et d’autre athéistes
+qui pensent que tout forme de foi religieuse doit être éradique. 
+Je vais écrire un autre blog sur les "arguments" de Dawkins et que ces remarques sont aussi souvent des affirmations de foi.
 
-# Science et foi forme une intersection stimulante
+Est-ce que science et foi ne sont ils pas **deux domaines complètement différents**?
+Je pense au contraire que Science et foi forme une intersection stimulante.
 
-## La religion fournit le cadre conceptuel dans lequel la science peut s'épanouir.
+## 1. La religion fournit le cadre conceptuel dans lequel la science peut s'épanouir.
 
 
 L'entreprise scientifique est basée sur certaines hypothèses qui ne peuvent pas être prouvées scientifiquement, par exemple :
@@ -103,9 +100,9 @@ Ainsi, le monde est un lieu rationnel ouvert à l'exploration et à la découver
 Ainsi, la religion est pertinente pour la science en ce qu'elle peut fournir un cadre conceptuel dans lequel la science peut exister.
 Plus que cela, la religion chrétienne a historiquement fourni le cadre conceptuel dans lequel la science moderne est née et s'est développée.
 
-## Les religions font des affirmations factuelles et sont donc investigables par la science
+## 2. Les religions font des affirmations factuelles et sont donc investigables par la science
 
-### 1. L’univers n’est pas éternel
+### Exemple: L’univers n’est pas éternel
 
 Un autre exemple intéressant de la falsification d'une vision religieuse par la science est l'affirmation de plusieurs religions orientales comme le taoïsme et certaines formes d'hindouisme que le monde est divin et donc éternel.
 D’autres disent que l’histoire est cyclique mais en tout cas qu’il n’avait jamais de début.
@@ -119,15 +116,14 @@ Ainsi plusieurs hypothèses étaient mises en avant comme les univers cycliques 
 Finalement, les travaux des physiciens théoriques, dont ceux de Stephen Hawking, ont bétonné l’idée d’un début de l’univers.
 Contre toute attente, la science a donc vérifié cette prédiction religieuse.
 
-### 2. L’historicité de Jésus
+### Exemple: L’historicité de Jésus
 
 Si des religions font des affirmations des événements historiques on peut les investiguer les avec les méthodes des historiens.
 Par exemple L’islam, le Judaïsme et le Christianisme font tous des affirmations contradictoires au tour de la crucifixion de Jésus.
 L’islam dit que c’est quelqu'un d’autre qui est crucifié à sa place, le judaïsme dit qu’il est crucifié.
 Le christianisme dit que Jésus est crucifié et ressuscité.
-Bien sûr pas tout les trois peuvent être vrai.
+Bien sûr pas tout les trois ne peuvent être vrai.
 Et les historiens peuvent aider à trancher.
-
 
 Aujourd’hui tout les historiens sont d’accord qu’il a existé, et qu’il était crucifié.
 Aussi que peu après ça mort un mouvement multi-ethnique a vu le jour qui a défié le ridicule et la persécution pour déclarer que Jésus est ressuscité.
@@ -135,9 +131,12 @@ Peut-être un historien en tant que scientifique ne peut pas se prononcer si le 
 mais il peut au moins exclure qu’il y a une théorie naturelle qui explique ces faits.
 
 
-## La science relève des questions dans le domaine de la foi
+## 3. La science relève des questions dans le domaine de la foi
 
-Au fur et à mesure que la science sonde l'univers, elle rencontre des problèmes et des questions qui sont de nature philosophique et ne peuvent donc pas être résolus scientifiquement, mais qui peuvent être éclairés par une perspective philosophique.
+Au fur et à mesure que la science sonde l'univers,
+elle rencontre des problèmes et des questions qui sont de nature meta-physique
+ et ne peuvent donc pas être résolus scientifiquement,
+mais qui peuvent être éclairés par une perspective philosophique.
 
 - Pourquoi y a-t-il quelque chose plutôt que rien?
 - Pourquoi la nature se conforme-t-elle à des lois naturelles?
@@ -145,7 +144,7 @@ Au fur et à mesure que la science sonde l'univers, elle rencontre des problème
 - Est-ce que je suis juste mon cerveau?
 - Ou Quelle est la cause de l’univers?
 
-### Quelle est la cause de l’univers?
+### La cause de l’univers?
 
 On a vu que la cosmologie a montré que l’univers a un début.
 Ce qui relève la question métaphysique qu’est-ce que c’est la cause de l’univers.
@@ -190,62 +189,40 @@ Selon le statut de la physique d’aujourd’hui, le Big Bang n’est pas seulem
 La cause de l’univers doit alors être en dehors du temps et de l’espace, immatérielle et extrêmement puissante.
 *Cela ressemble pas mal à Dieu, n’est-ce pas?*
 
-**Conclusion**
 
-Je pense que la question de si Dieu existe est énormément importante et il vaut la peine d'y réfléchir.
+### Les questions les plus importantes ne peuvent pas être résolues par la science
 
-Je vous encourage à réfléchir de manière raisonnable, de manière "scientifique" si vous le souhaitez.
-
-
-
-
-
-
-
-
-
-
-<!-- **Témoignage personnel** 
+<!-- **Témoignage personnel** -->
 
 J’ai deux enfant un garçon de 3 ans et demi et une fille de presque une année.
 Un jour mon fils nous demande «Elle était où ma soeur avant d’être dans le ventre de maman?» 
-La fameuse question d’u viennent les bébés.
- 
-
+– La fameuse question d’u viennent les bébés.
 On a hesité mais on a quand mêmem pensé l’histoire avec les cygoines est un peu démodé.
-
 et du coup on a choisi l’explication biologique.
-Maintenant il arrive tres bien à dire “Spermatozoide”
-
+Maintenant il arrive tres bien à dire 'Spermatozoide'.
 Mais on a insité qu’il étati voulu.
-
-
 Parce que la question: « D’où est ce que je viens? » et liée aux questions profondes « qui suis-je » et « pour quoi je suis là? » 
-La question de la sens de vie.
+La question de la sens de vie. Et en fin de compte ces questions sont plus importantes (pour l'enfant) que connaitre la biologie de la reproduction.
 
 
-
-Par rapport aux grand questions je vaux affirmer deux points :
-
-1.	La science peut pas vraiment y repondre
-2.	Tout le monde à des réponses
-
-### La science peut pas vraiment y repondre
 La science peut nous donner une explication assez conclusive comment l’humain est apparu sur terre,
  mais est ce que c’est toute la réponse ?
-
-
 Un athé dirait peut-être que nous on est apparu à travairs l’évolution est c’est tout.
-
 On est des singes évoulé et et qu’il n’y a pas plus de sense à notre vie que celui que nou on invente.
-
-
 Mais est-ce que c’est la conclusion « c’est tout »
 de la science à la quelle il adhère ou est ce que c’est à cause de son athéisme.
-
 Bien sûre je ne veux pas contradire sa science mais s’il dit que que la science et la sulle qui peut donner des réponse à des questions il fai aussi une affirmation de foi.
-
 La science peut donner une éclerage sur les grandes questions de la vie mais elle ne peut pas vraiment y repondre.
+
+
+Ainsi la science ne suffit pas pour répondre aux questions les plus importantes de la vie.
+C'est pourquoi Emmanuel Macron, le président français, souhaite une coexistence pacifique entre la science et la foi.
+
+> la science et Dieu, la raison et la religion peuvent donc vivre côte à côte, parfois même se nourrir.
+> Cela est même souhaitable tant aspiration à la raison et besoin de transcendance cohabitent en chacun de nous.
+> 
+> -- Emmanuel Macron 
+
 
 
 ### Tout le monde en a des réponse à ces questions
@@ -268,7 +245,26 @@ Finallement ce n’est pas tant la question Science et foi ?
 
 Quelle vision du monde est plus compatible avec la vision du monde
 
--->
+
+
+## Conclusion
+
+Je pense que la question de si Dieu existe est énormément importante et il vaut la peine d'y réfléchir.
+
+Je vous encourage à réfléchir de manière raisonnable, de manière "scientifique" si vous le souhaitez.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -281,18 +277,9 @@ old
 Qui ferais confidence à un cerveau d’un singe?
 – Charles Darwin
 
-Mais voyez bien.
-Il insite que on doit être athé et pas seulement athé, mais un athé militant et montrer pas de tolérance envers des croyants.
 
 
 
-
-Et comme souvent se sont les extrèmes qui obtiendrent le plus d’attention dans les médias.
-
-
-Moi je pense que c’est seulement un **conflit superficiel**.
- Qui vient du fait qu’on traite la science et la foi comme la même domaine.
-C'est à dire que les créationistes traitent la Bible comme un livre scientifique.
 
 On fait ainsi erreur de catégorie.
 Le conflit s'évapore et on peut apprécier ces textes antiques pour ceux qui sont vraiment: une réponse à la question “D’où est-ce que je vien?” Cette réponse n’est formulée pas en théories scientifiques, même pas en théories scientifiques primitives, mais en histoires.
@@ -332,6 +319,36 @@ Même si la science peut expliquer comment la vie a commencé, elle ne peut pas 
 C'est là que la religion peut offrir des réponses.
 
 _Note_: À développer ce point.
+
+
+<!--
+Mais voyez bien.
+Il insiste que on doit être athéiste et pas seulement athéiste,
+mais un athéiste militant et montrer pas de tolérance envers des croyants.
+
+
+Si je le comprends bien, il ne critique pas seulement les créationnistes mais, bien tout les croyants.
+Il accusent les croyants d’avoir une fois aveugle et des pas chercher des preuves. 
+Qui a dit que la foi est aveugle?
+
+Je ne sais pas comment c’st pour d’autre réligion mais les autheurs de la bible incites à considerer les preufes et rencontrer les temoins occulsires.
+
+Pour ma part j’ai toujour éssayé de mettre ma foi en question et de chercher des arguments et des preufes.
+
+
+## Pour en finir avec Dawkins
+
+
+
+
+
+
+
+Et comme souvent se sont les extrèmes qui obtiendrent le plus d’attention dans les médias.
+
+Je pense que c’est faux et Dawkins ne voit pas combien de ses remarques sont aussi des affirmations de foi.
+J’ai préparé toute une partie sur à quel point ces arguments ne tiennent pas la route.
+
 -->
 
 
