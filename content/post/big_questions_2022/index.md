@@ -200,8 +200,7 @@ Un jour, mon fils nous demande :
 
 « Elle était où ma sœur avant d'être dans le ventre de maman ? » 
 
-– La fameuse question d'où viennent les bébés.
-
+La fameuse question d'où viennent les bébés.
 On a hésité, mais on a quand même pensé que l'histoire avec les cigognes est un peu démodée.
 Et du coup, on a choisi l'explication biologique.
 Maintenant, il arrive très bien à dire « spermatozoïde ».
