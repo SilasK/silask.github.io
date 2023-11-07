@@ -2,11 +2,11 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "HPC Server: The tricks you need to know"
-subtitle: ""
+subtitle: "I wrote together some advice that should make life easier for those working with a cluster"
 summary: ""
 authors: [admin]
 tags: []
-categories: []
+categories: [Bioinformatics, Bash]
 date: 2023-11-07T19:33:27+01:00
 lastmod: 2023-11-07T19:33:27+01:00
 featured: false
