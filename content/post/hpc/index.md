@@ -1,16 +1,17 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Hpc"
+title: "HPC Server: The tricks you need to know"
 subtitle: ""
 summary: ""
-authors: []
+authors: [admin]
 tags: []
 categories: []
 date: 2023-11-07T19:33:27+01:00
 lastmod: 2023-11-07T19:33:27+01:00
 featured: false
 draft: false
+commentable: true
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -30,24 +31,27 @@ projects: []
 
 
 
-# Connecting to an HPC Server: A Simplified Guide
+
+# HPC Server: The tricks you need to know
 
 Connecting to a high-performance computing (HPC) server might seem daunting at first.
 However, with the right tools and guidance, it can be a straightforward process.
 This blog post aims to demystify the connection process, making it accessible to both novices and seasoned users.
 
-## Prerequisites:
+**Prerequisites:**
 
 Before we begin, ensure you know in theory how to connect to your server, e.g. You have the server address, your user login and password.
 
-## Step 1: Installing Visual Studio Code
+{{< toc >}}
+
+## Make connection a child's play
 
 While many corporate and academic institutions provide mobaXterm or other SSH clients, Visual Studio Code is a free and open-source alternative that is easy to install and use.
 It also has a Remote-SSH extension that makes connecting to an HPC server a breeze.
 
 Download and install Visual Studio Code from [here](https://code.visualstudio.com/download).
 
-[This tutorial](https://carleton.ca/scs/2023/vscode-remote-access-and-code-editing/) is a good reference for this step (with screenshots).
+**[This tutorial](https://carleton.ca/scs/2023/vscode-remote-access-and-code-editing/) is a good reference for this step.**
 
 Now you should be able to connect to your HPC server using Visual Studio Code and write and run code remotely.
 
@@ -78,13 +82,13 @@ Now run the script:
 You should see the "Hello World!" message in the terminal
 
 
-### For windows users, installing Git for Windows
+### Installing Git for Windows
 
 Many commands are much easier if you have a bash terminal. Git for Windows provides a bash terminal and a lot of useful commands. You can download it from [here](https://git-scm.com/download/win).
 
 In the VS code bottom plane, Click on Terminal, then the `+`-sign. Select Git bash. Also use the `Configure Terminal settings` to make this the default terminal. 
 
-## Step 2: Simmplifying Connection with Alias and SSH Key
+## Simplifying Connection
 
 
 Bored to type your password each time you connect to the server? You can use an alias and an SSH key to simplify the connection process.
@@ -128,48 +132,111 @@ Replace `myhpc` with the alias you created in the previous step.
 
 Now you should be able to connect to your HPC server without typing your password.
 
-**Conclusion**
-
-Connecting to an HPC server doesn't have to be a daunting task. With Visual Studio Code and the Remote - SSH extension, you can easily connect to your HPC server and start working on your projects. By creating an alias and setting up SSH keys, you can further simplify the connection process.
-
-I hope this blog post has been helpful. If you have any questions, please leave a comment below.
-
-**Additional Resources**
-
-* Visual Studio Code SSH documentation: https://code.visualstudio.com/docs/remote/ssh
 
 
+## Install Conda on the server
 
+If you want to run any bioinformatics programs, you need to install micromamba.
 
+Some HPC servers have conda pre-installed. Using them may be easier, expecially if multiple users want to use the same environments, but often I realized you don't have all the packages you need. Therefore I recommend to install micromamba in your home directory/ team folder.
 
-
-
-
-
-
-
-### Creating an Alias
-
-1. Open your local machine's terminal.
-2. Create an alias for your HPC server connection using the following command:
+On the server or on your local machine, run the following commands: 
 
 ```bash
-ssh-add ~/.ssh/id_rsa
+wget "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh"
+bash Miniforge3-$(uname)-$(uname -m).sh
 ```
 
-Replace `id_rsa` with the name of your private SSH key if it's different.
+Follow the instructions of the installer.
 
-### Setting Up SSH Key
+Add the bioconda channel to mamba:
+```bash
+mamba config --add channels bioconda
+mamba config --add channels conda-forge
+mamba config --set channel_priority strict
+```
 
-1. Generate an SSH key pair if you haven't already.
-2. Copy the public key from your local machine.
-3. Add the public key to your HPC server's authorized keys file.
 
-Once the alias and SSH key are configured, you can connect to your HPC server using the following command in your local machine's terminal:
+
+With mamba, you can install any bioinformatics program. For example, to install bbmap, run the following command:
 
 ```bash
-ssh <alias>
+mamba install bbmap
 ```
 
-Replace `<alias>` with the alias you created.
 
+## Make your life easier on the server
+
+### Change file permissions to work better in a team
+
+If you are working in a team you usually don't want to think about file permissions in shared folders. Therefore you can change the default file permissions. So that all files you write are readable and writable by your team members.
+
+Add the following lines at the end of your .bashrc file:
+
+```bash
+
+# set mask so others of the same group can read and write your files, by default
+umask g+rw,o-rwx
+
+```
+Note: Files in your private folder are not accessible to other team members. 
+
+### Make download faster
+Conda added a chunk to your bashrc file in order to stat it at the beginning of each session. This slows down the download of files. You can either cut paste this section in another script or add the following lines **before the mamba init section** of your .bashrc file:
+
+
+```bash
+
+if [ -z "${PS1:-}" ]; then
+  # prompt var is not set, so this is *not* an interactive shell
+  return
+fi
+
+```
+
+This skips all the rest of the file when not in a interactive shell.
+
+### Other useful modifications
+
+You can add the following lines to your .bashrc file to make your life easier:
+
+```bash
+
+
+# Use aliases for often used commands
+## Slurm
+alias sq='squeue -u $USER'
+alias sr='screen -r'
+alias jobstatus="sacct -P -bn -j"
+
+# Display table 
+# tsv file.tsv
+alias tsv="column -t -s $'\t'"
+
+## Snakemake
+
+lastlog () {
+
+  ls $1.snakemake/log/*.log | tail -n1
+}
+
+```
+
+See also [my Gist](https://gist.github.com/SilasK/fcfee200405196ae12588824591766ec)
+
+## Using screen
+
+Screen is a terminal multiplexer. It allows you to run multiple terminals in one terminal. It is very useful if you want to run a program in the background.
+
+To start a screen session, type `screen  name` in the terminal.
+
+To detach from a screen session, type `Ctrl + a` and then `d`.
+
+To reattach to a screen session, type `screen -r name`.
+
+To list all screen sessions, type `screen -ls`.
+
+To kill a screen session, type `screen -X -S name quit`.
+
+
+To visually distinguish if you are in a screen or not, you can add the [.screenrc](https://gist.github.com/SilasK/fcfee200405196ae12588824591766ec) file to your home directory.

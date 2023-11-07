@@ -11,6 +11,7 @@ date: 2023-11-07
 lastmod: 2023-11-07
 featured: true
 draft: false
+commentable: true
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
