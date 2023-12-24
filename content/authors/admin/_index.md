@@ -11,7 +11,7 @@ role: Metagenome researcher
 
 # Organizations/Affiliations
 organizations:
-- name: Developper of Metagenome-Atlas
+- name: Developer of Metagenome-Atlas
   url: "https://metagenome-atlas.github.io/"
 
 # Short bio (displayed in user profile at end of posts)
