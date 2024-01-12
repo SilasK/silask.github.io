@@ -45,8 +45,8 @@ image:
 links:
   - name: Reactions
     url: https://twitter.com/SilasKieser/status/1445030136722739202
-    icon_pack: fab
-    icon: twitter
+    icon_pack: hb
+    icon: x
 
 # Optional filename of your slides within your event's folder or a URL.
 url_slides:
