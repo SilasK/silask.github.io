@@ -50,9 +50,10 @@ social:
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/SilasKieser
-  - icon: bluesky
-    icon_pack: custom
-    link: https://bsky.app/profile/silask.bsky.social
+  #  Doesn't work correctly
+  # - icon: bluesky
+  #   icon_pack: custom
+  #   link: https://bsky.app/profile/silask.bsky.social
   - icon: github
     icon_pack: fab
     link: https://github.com/silask
