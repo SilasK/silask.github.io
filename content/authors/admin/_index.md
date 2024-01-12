@@ -35,8 +35,8 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 profiles:
-  - icon: at-symbol
-    icon_pack: hb
+  - icon: envelope
+    icon_pack: hero
     link: "mailto:silas.kieser@gmail.com" #'#contact'  # For a direct email link, use "mailto:test@example.org".
   # - icon: mastodon
   #   icon_pack: fab
