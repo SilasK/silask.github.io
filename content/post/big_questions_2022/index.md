@@ -232,7 +232,7 @@ La vision du monde est quelque chose de tout à fait naturel.
 Il y a même des groupes de recherche qui étudient cela.
 Tout le monde en a une.
 Chacun a des réponses à ses grandes questions, que ce soit de manière consciente ou acquise des parents ou de la société, même si l'on est athée ou agnostique.
-Finalement, la question n'est pas tant _Science ou foi_ mais plutôt Quelle vision du monde est plus compatible avec la vision du monde ?
+Finalement, la question n'est pas tant _Science ou foi_, mais plutôt quelle vision du monde est compatible avec la science ?
 
 
 
