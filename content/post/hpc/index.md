@@ -106,7 +106,7 @@ Now, you can connect to your HPC server by simply typing `ssh myhpc` into the te
 
 ### Setting Up SSH Keys
 
-Bored to type your password each time you connect to the server? You can use an SSH key to simplify the connection process.
+Bored of typing your password each time you connect to the server? You can use an SSH key to simplify the connection process.
 
 Run the following command in your local machine's terminal:
 
@@ -143,9 +143,9 @@ Follow the instructions of the installer.
 
 Add the bioconda channel to mamba:
 ```bash
-mamba config --add channels bioconda
-mamba config --add channels conda-forge
-mamba config --set channel_priority strict
+conda config --add channels bioconda
+conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 
