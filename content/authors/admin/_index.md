@@ -34,18 +34,15 @@ education:
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
-social:
+profiles:
   - icon: envelope
-    icon_pack: fas
+    icon_pack: hero
     link: "mailto:silas.kieser@gmail.com" #'#contact'  # For a direct email link, use "mailto:test@example.org".
   # - icon: mastodon
   #   icon_pack: fab
   #   link: https://mstdn.science/@silask
   - icon: linkedin
-    icon_pack: fab
-    link: https://www.linkedin.com/in/silas-kieser-9016ba5a
-  - icon: cv
-    icon_pack: fab
+    icon_pack: hb
     link: https://www.linkedin.com/in/silas-kieser-9016ba5a
   # - icon: twitter
   #   icon_pack: fab
@@ -54,11 +51,12 @@ social:
   # - icon: bluesky
   #   icon_pack: custom
   #   link: https://bsky.app/profile/silask.bsky.social
+
   - icon: github
-    icon_pack: fab
+    icon_pack: hb
     link: https://github.com/silask
-  - icon: "google-scholar"
-    icon_pack: "ai"
+  - icon: google-scholar
+    icon_pack: ai
     link: https://scholar.google.ch/citations?user=73hLKTUAAAAJ
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
