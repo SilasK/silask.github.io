@@ -220,7 +220,7 @@ See also [my Gist](https://gist.github.com/SilasK/fcfee200405196ae12588824591766
 
 Screen is a terminal multiplexer. It allows you to run multiple terminals in one terminal. It is very useful if you want to run a program in the background.
 
-To start a screen session, type `screen  name` in the terminal.
+To start a screen session, type `screen -S name` in the terminal.
 
 To detach from a screen session, type `Ctrl + a` and then `d`.
 
