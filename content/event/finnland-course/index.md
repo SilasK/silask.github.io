@@ -106,7 +106,7 @@ Time: 9:15 – 12:30 + 13:30 - 17:00 EEST
 
 - What is metagenomics?
 - From Reads to genomes
-- :computer: [Workshop 1: Setup & Conda](https://metagenome-atlas.shinyapps.io/1_Get_started/)
+- :computer: [Workshop 1: Setup & Conda](https://metagenome-atlas.shinyapps.io/TryAtlas)
 
 
 
