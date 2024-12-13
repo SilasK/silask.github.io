@@ -6,7 +6,7 @@ title: Silas Kieser
 superuser: true
 
 # Role/position
-role: Metagenome researcher
+role: Data scientist with 10 years of experience
 
 # Organizations/Affiliations
 organizations:
@@ -14,10 +14,10 @@ organizations:
     url: "https://metagenome-atlas.github.io/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Husband, Father & Metagenome researcher
+bio: Husband, Father & Data scientist
 
 interests:
-  - Metagenomics
+  - AI
   - Human gut microbiota
   - Apologetics
 
@@ -80,10 +80,7 @@ email: "silas.kieser@gmail.com"
 highlight_name: true
 ---
 
-I'm fascinated by the microbiome and search for ways to harness it to make us healthier.
-
-When I first learned about metagenomics, I found the idea of sequencing thousand of microbial genomes at once mind-boggling. I'm happy to be part of this endeavor to resolve these enormous puzzles and recover genomes from metagenomes.
-Besides microbiome analysis at the computer, I'm also hands-on involved by changing the diapers of my two children.
+I am a data scientist passionate about bridging the gap between algorithms and biological data. With 10 years of experience across academia, industry, and start-ups, I am experienced in turning complex datasets into insights, developing robust and reproducible pipelines, and applying machine learning to tackle challenges in healthcare and beyond.
 
 <!--
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->
