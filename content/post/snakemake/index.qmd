@@ -252,9 +252,7 @@ here is the DAG for a real world example, where I run `metaphlan` on many sample
 
 ## Real world example
 
-
-
-![](images/rulegraph.svg)
+![This graph shows only the rules. In practice most nodes would be multiplied by the number of samples, but this will give an very complicated graph.](rulegraph.svg)
 
 
 # There is more!
