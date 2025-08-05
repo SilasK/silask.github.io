@@ -108,9 +108,8 @@ locale:
 
 features:
   syntax_highlighter:
-    theme_light: github-light
-    theme_dark: dracula
-    lineNos: true
+    theme_light: friendly
+    theme_dark: evergarden
   math:
     enable: false
   privacy_pack:

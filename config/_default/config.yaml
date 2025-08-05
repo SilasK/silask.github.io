@@ -61,7 +61,9 @@ taxonomies:
   publication_type: publication_types
   author: authors
 markup:
-
+  highlight:
+    lineNos: true # Show line numbers in code blocks
+    noClasses: false # Use classes for syntax highlighting
   _merge: deep
 related:
   threshold: 80
