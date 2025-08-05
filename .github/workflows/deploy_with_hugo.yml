@@ -43,7 +43,7 @@ jobs:
           extended: true
       - uses: actions/cache@v3
         with:
-          path: /tmp/hugo_cache_runner/
+          path: /home/runner/.cache/hugo_cache
           key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.mod') }}
           restore-keys: |
             ${{ runner.os }}-hugomod-
