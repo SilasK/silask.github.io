@@ -66,6 +66,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: content/post
+          name: quarto-md
       ## Build
       - name: Build with Hugo
         env:
@@ -77,6 +78,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
+          name: hugo-page
 
   # Deploy website to GitHub Pages hosting
   deploy:
