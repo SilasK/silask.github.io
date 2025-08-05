@@ -61,6 +61,10 @@ taxonomies:
   publication_type: publication_types
   author: authors
 markup:
+  highlight:
+    style: 'github'
+    lineNos: true
+    noClasses: false
   _merge: deep
 related:
   threshold: 80
