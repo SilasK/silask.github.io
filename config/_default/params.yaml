@@ -15,31 +15,28 @@ appearance:
 
 footer:
   copyright:
-    notice: '© {year} Silas Kieser. This work is licensed under {license}'
+    notice: "© {year} Silas Kieser. This work is licensed under {license}"
     license:
       enable: true
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
 
-
 # SEO
 
 marketing:
   seo:
     site_type: Person
-    local_business_type: ''
-    org_name: ''
-    description: 'My personal webpage.'
-    twitter: 'SilasKieser'
+    local_business_type: ""
+    org_name: ""
+    description: "My personal webpage."
+    twitter: "SilasKieser"
   analytics:
-    google_analytics: 'UA-111618908-1'
-    baidu_tongji: ''
+    google_analytics: "UA-111618908-1"
+    baidu_tongji: ""
   verification:
-    google: ''
-    baidu: ''
-
-
+    google: ""
+    baidu: ""
 
 # should go elsewhere
 
@@ -62,24 +59,23 @@ marketing:
 #   - 'Monday 10:00 to 13:00'
 #   - 'Wednesday 09:00 to 10:00'
 # appointment_url: 'https://calendly.com'
-contact_links: 
-  - icon: twitter
-    icon_pack: fab
-    name: DM Me
-    link: 'https://twitter.com/SilasKieser'
-  # - icon: skype
-  #   icon_pack: fab
-  #   name: Skype Me
-  #   link: 'skype:echo123?call'
-  # - icon: keybase
-  #   icon_pack: fab
-  #   name: Chat on Keybase
-  #   link: 'https://keybase.io/'
-  # - icon: comments
-  #   icon_pack: fas
-  #   name: Discuss on Forum
-  #   link: 'https://discourse.gohugo.io'
-
+# contact_links:
+# - icon: twitter
+#   icon_pack: fab
+#   name: DM Me
+#   link: 'https://twitter.com/SilasKieser'
+# - icon: skype
+#   icon_pack: fab
+#   name: Skype Me
+#   link: 'skype:echo123?call'
+# - icon: keybase
+#   icon_pack: fab
+#   name: Chat on Keybase
+#   link: 'https://keybase.io/'
+# - icon: comments
+#   icon_pack: fas
+#   name: Discuss on Forum
+#   link: 'https://discourse.gohugo.io'
 
 # Site header
 
@@ -93,16 +89,13 @@ header:
     show_search: true
     highlight_active_link: true
 
-
 # Localization
 locale:
   date_format: "2. Jan 2006"
-  time_format: '15:04'
+  time_format: "15:04"
   address_format: de
 
-
 # Site features
-
 
 # Site features
 
@@ -115,7 +108,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: "https://github.com/<username>/<repository>"
     content_dir: content
     branch: main
   avatar:
@@ -124,30 +117,29 @@ features:
   comment:
     provider: giscus
     disqus:
-      shortname: ''
+      shortname: ""
       show_count: true
     commento:
-      url: ''
+      url: ""
     giscus:
-      repo: 'silask/silask.github.io'
-      repo_id: 'MDEwOlJlcG9zaXRvcnkyODc3MjM3Nzc='
+      repo: "silask/silask.github.io"
+      repo_id: "MDEwOlJlcG9zaXRvcnkyODc3MjM3Nzc="
       #category: 'General'
       #category_id: 'DIC_kwDOESZRAc4CU7yv'
-      category: 'Announcements'
-      category_id: 'DIC_kwDOESZRAc4CU7yu'
-      
+      category: "Announcements"
+      category_id: "DIC_kwDOESZRAc4CU7yu"
+
   search:
     provider: wowchemy
     algolia:
-      app_id: ''
-      api_key: ''
-      index_name: ''
+      app_id: ""
+      api_key: ""
+      index_name: ""
       show_logo: false
   map:
-    provider: ''
-    api_key: ''
+    provider: ""
+    api_key: ""
     zoom: 15
-
 
 # Extensions
 
@@ -163,4 +155,3 @@ extensions:
 security:
   # Allow frame for embedding speaker notes in slides
   allow_frame: true
-
