@@ -110,6 +110,7 @@ features:
   syntax_highlighter:
     theme_light: github-light
     theme_dark: dracula
+    lineNos: true
   math:
     enable: false
   privacy_pack:
