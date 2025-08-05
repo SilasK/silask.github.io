@@ -9,6 +9,9 @@ on:
     branches: ["master"]
   pull_request:
     branches: ["master"]
+  # Runs once per month on the 1st day at 2 AM UTC
+  schedule:
+    - cron: "0 2 1 * *"
   # Allows you to run this workflow manually from the Actions tab on GitHub.
   workflow_dispatch:
 
