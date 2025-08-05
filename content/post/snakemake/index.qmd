@@ -1,5 +1,5 @@
 ---
-title: "Snakemake"
+title: "The easiest way to run jobs on a HPC cluster!"
 date: "2025-08-04"
 categories: 
   - Snakemake
@@ -7,6 +7,7 @@ categories:
 format: hugo-md
 
 toc: true
+toc-depth: 1
 
 
 # this is specific to wowchemy
@@ -23,14 +24,14 @@ execute:
 
 ## Running Jobs on a HPC the old way
 
-:::{.notes}
+
 
 Imagine you have to run a job on a HPC cluster for many samples.
 Here I illustrate it with running `metaphlan`, a typical tool for metagenomic analysis, but it could be any other tool.
 
 Your HPC's documentation tells you to write a bash script like this to submit it to a slurm cluster.
 
-:::
+
 
 
 ```{.bash }
@@ -51,16 +52,16 @@ metaphlan \
 
 ```
 
-## Multiple samples
+### Multiple samples
 
-:::{.notes}
+
 
 Now for multiple samples you can write a for loop, but then you do not benefit of the parallelization of the cluster.
 You can write a bash script that creates and submits the job scripts for each sample.
 
 Something like this:
 
-:::
+
 
 ```{.bash}
 for sample in $(cat samples.txt); do
@@ -87,15 +88,15 @@ sbatch /scripts/${sample}.sh
 done
 ```
 
-::: {.notes}
+ {.notes}
 
 Then you submit the script to the cluster and wait ...
 
 and get many error messages. Because:
 
-:::
 
-## Potential errors
+
+### Potential errors
 
 - You missed a single backslash
 - You forgot to create the output directory
@@ -106,7 +107,7 @@ and get many error messages. Because:
 _I speak of experience here!_
 
 
-## Bash scripting {.incremental}
+**Bash scripting**
 
 - Hard to read = Hard to debug
 - One error screws up everything
@@ -127,11 +128,11 @@ I will focus on Snakemake.
 
 # Snakemake
 
-:::{.notes}
+
 
 In snakemake you would write the `rule` to run the `metaphlan` command like this.
 
-:::
+
 
 ```{.python}
 rule run_metaphlan:
@@ -154,23 +155,23 @@ rule run_metaphlan:
 
 ```
 
-:::{.notes}
+
 
 Snakemake is a workflow management system that is written on top of Python. But as the example above shows, you mostly don't need any python knowledge to write a snakemake pipeline.
 
 
-:::
 
 
-## Sample table
 
-:::{.notes}
+### Sample table
+
+
 
 To define the input files for each sample you can identify them from the filenames in a predefined folder.
 What I use more is to define a sample table in a csv file with the paths to both fastq files for each sample.
 
 
-:::
+
 
 ```{.python code-line-numbers="1,2|6,7"}
 import pandas as pd
@@ -187,15 +188,15 @@ rule run_metaphlan:
 ```
 
 
-## Target rule
+### Target rule
 
-:::{.notes}
+
 
 Then you need a target rule, that defines the final output of the pipeline.
 This is analogous to the `all` target in a Makefile.
 
 
-:::
+
 
 ```{.python code-line-numbers="4-6"}
 import pandas as pd
@@ -217,8 +218,8 @@ rule run_metaphlan:
 
 
 
-## DAG
-:::{.notes}
+### DAG
+
 Writing what you need at the end might be sometimes a bit head-bending,
 but it is most of the time the results for all samples.
 
@@ -226,7 +227,7 @@ Snakemake defines a Directed Acyclic Graph (DAG) that defines which tool/job nee
 
 
 
-:::
+
 
 
 ```{dot}
@@ -242,12 +243,12 @@ digraph G {
 ```
 
 
-:::{.notes}
+
 
 Obviously, you can also write a intermediate rule that uses the output from all samples and combines them.
 
 here is the DAG for a real world example, where I run `metaphlan` on many samples and then combine the results into a single file.
-:::
+
 
 ## Real world example
 
@@ -262,12 +263,12 @@ here is the DAG for a real world example, where I run `metaphlan` on many sample
 
 ## Install Software automatically
 
-:::{.notes}
+
 
 Using conda or mamba you can install the software automatically in a conda environment.
 
 So you can also install the pipeline on a new computer without having to install the software manually.
-:::
+
 
 
 ```{.python}
@@ -293,17 +294,15 @@ dependencies:
 
 
 
-Run the pipeline with conda
-```
-snakemake --use-conda
-```
+Run the pipeline with conda `snakemake --use-conda`
 
-## Singularity
 
-:::{.notes}
+### Singularity
+
+
 You can even encapsulate each step in a singularity container to be sure that the software is run in a reproducible environment.
 
-:::
+
 
 
 ```{.python}
@@ -317,30 +316,24 @@ rule run_metaphlan:
 
 
 Run the pipeline each step in a singularity container
-```
-snakemake --use-singularity
-```
+`snakemake --use-singularity`.
 
 ## Running on the cluster
 
-:::{.notes}
 
 Finally to submit the jobs to a slurm cluster you simply need to install the `snakemake-executor-plugin-slurm`, or another plugin for the cluster system you have and then you simply need to :
 
-:::
+
 
 ```bash
 conda install -c bioconda snakemake-executor-plugin-slurm
 snakemake --executor slurm --jobs 10
 ```
 
-:::{.notes}
+
 
 This command:
 
-:::
-
-::::{.incremental}
 - Submits job to the cluster automatically
 - Sets memory, threads, and time
 - Tracks which job is done, or failed
@@ -349,29 +342,24 @@ This command:
 - Kills jobs if you stop the pipeline
 - And resumes jobs if you restart the pipeline
 
-:::
+_Almost incredible!_
 
 
 
 ## Resources
 
-:::{.incremental}
-- [Snakemake Documentation](https://snakemake.readthedocs.io/en/stable/)
-- [Snakemake Tutorial](https://snakemake.readthedocs.io/en/stable/tutorial/tutorial.html)
-- I can help you with the rest.  
-  - Tips and Tricks on how to run snakemake on the cluster
-  - Questions
-  - Share My Pipelines
 
-:::
-
+1. [Snakemake Documentation](https://snakemake.readthedocs.io/en/stable/)
+1. [Snakemake Tutorial](https://snakemake.readthedocs.io/en/stable/tutorial/tutorial.html)
+1. I can help you with the rest.  
 
 
 # Tips and Tricks
 
+
 ## Create a profile for cluster usage
 
-:::{.callout-note}
+::: {.callout-note}
 
 This is the profile I use for running snakemake on the Ubelix cluster at the University of Bern.
 You can adapt it to your cluster system.
@@ -390,6 +378,9 @@ default-resources:
     mem_mb: 1000
     time_min: 120
     
+
+use-conda: true # (as you prefer) use conda environments
+conda-prefix: /path/to/conda/envs # where to store the conda environments.
 
 # exceptions for specific rules
 set-threads:
