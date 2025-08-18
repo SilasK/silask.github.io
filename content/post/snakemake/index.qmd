@@ -11,7 +11,7 @@ toc-depth: 1
 
 
 # this is specific to wowchemy
-lastmod: "2025-08-04"
+lastmod: "2025-08-18"
 commentable: true
 authors: [admin] 
 
@@ -376,7 +376,7 @@ default-resources:
     mem_mb: 1000
     time_min: 120
     
-
+rerun-incomplete: true # Recommended: if a job is halve done re-start it
 use-conda: true # (as you prefer) use conda environments
 conda-prefix: /path/to/conda/envs # where to store the conda environments.
 
