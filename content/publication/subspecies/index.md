@@ -85,3 +85,23 @@ projects:
 #   Otherwise, set `slides: ""`.
 # slides: "example"
 ---
+
+
+New paper out: Subspecies of the human gut microbiota carry implicit information for in-depth microbiome research.
+
+
+Most microbiome studies stop at the species level. But strains within a species can differ dramatically in function. This obscures associations and limits reproducibility.
+
+Going down to the strain-level isn't useful for most comparative studies, because everyone has person-specific strains for most of their microbes!
+We need an intermediate level: Subspecies.
+
+We developed an unsupervised method to cluster genomes into operational subspecies units (OSUs) and built HuMSub: the most comprehensive catalog of human gut microbiota subspecies (5,361 OSUs across 977 species).
+We found that 1/3 of species in the human gut have subspecies, most of which we knew nothing about.
+
+We created a sourmash-based method for fast & accurate subspecies quantification, enabling large-scale analysis across entire datasets, e.g., the whole SRA.
+
+Why it matters: Subspecies explain disease associations invisible at the species level. For example, in colorectal cancer, subspecies-based ML models consistently outperformed species-level ones.
+
+We found many cases where only one subspecies associates with disease while sibling-subspecies don't. Sometimes no association is detected at species level because opposing subspecies associations cancel each other out.
+
+Because our subspecies are genome-based, we can identify specific genes or mutations that explain differential associations. This provides a direct path to mechanistic understanding.
