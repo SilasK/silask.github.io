@@ -1,0 +1,78 @@
+---
+title: "Linebreaker: Intelligent Line Breaking for Markdown"
+date: "2025-11-05"
+categories: 
+  - Python
+  - Markdown
+  - Quarto
+format: hugo-md
+
+toc: true
+toc-depth: 1
+
+# this is specific to wowchemy
+lastmod: "2025-11-05"
+commentable: true
+authors: [admin] 
+
+execute:
+  echo: false # dont show text output of code
+  warning: false
+---
+
+# Semantic Line Breaking for Markdown
+
+A feature of markdown (Quarto) is that it ignores line breaks.
+A line break is just a space. (A double line break is a new paragraph).
+
+Also it is a good practice to not have endless long lines in markdown files.
+Because if you put 3 sentence on one line and you make one change in one word git would change the whole line.
+But on the other hand you do not want to break a sentence at random places just that it fits to a 60-80 character line length.
+
+Mattt developed the idea of [semantic line breaks](https://sembr.org/), where you break lines at meaningful places in the semantic logic of the sentence.
+I find the concept very convincing.
+Now with semantic linebreaks the markdown text is almost better readable than the rendered pdf or html without the line breaks.
+
+To break lines automatically according to semantic line breaks I one would need a tool that understands natural language.
+
+And they did, [sembr](https://github.com/admk/sembr), but for me it screwed up my quarto markdown files.
+
+So what I did is to create a simpler rule based line braker that works well with markdown and even quarto files.
+
+Hope it helps you with writing!
+
+## Features
+
+**Linebreaker** provides intelligent line breaking for Markdown and text files with sophisticated handling of:
+
+### Smart Punctuation Handling
+- **Citations**: Preserves `[@...]` format citations (DOIs contain punctuation)
+- **Numbers**: Keeps decimal numbers intact (e.g., 3.14, 1,000.50)
+- **Abbreviations**: Recognizes common abbreviations (Dr., Prof., vs., et al., etc.)
+
+### Intelligent Breaking
+- **Semantic breaks**: Splits at conjunctions, commas, and logical connectors
+- **Length-aware**: Skips breaking sentences that are already short
+- **Context-aware**: Handles parentheses and brackets appropriately
+
+### Markdown-Aware
+- **YAML headers**: Skips frontmatter blocks
+- **Code blocks**: Preserves all code content unchanged
+
+
+## Installation
+
+Install from PyPI using pip:
+
+```bash
+pip install linebreaker
+```
+
+Or using pixi:
+
+```bash
+pixi add --pypi linebreaker
+```
+
+
+
