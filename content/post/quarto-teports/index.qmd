@@ -120,7 +120,7 @@ I maintain a [complete Quarto article template](https://github.com/SilasK/quarto
 
 Here's something that surprises people: Quarto doesn't *force* you into a specific output format.
 
-Need to submit a Word document to your manager or a journal? Quarto can use your company's Word template and output a perfectly formatted DOCX file. Your content stays in markdown; the presentation adapts to whatever template you specify.
+Need to submit a Word document to your manager or a journal? [Quarto can use your company's Word template](https://quarto.org/docs/output-formats/ms-word-templates.html) and output a perfectly formatted DOCX file. Your content stays in markdown; the presentation adapts to whatever template you specify.
 
 This means:
 - Researchers write in Quarto (clean, version-controlled, semantic)
