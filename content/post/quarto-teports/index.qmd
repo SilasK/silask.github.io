@@ -1,0 +1,160 @@
+---
+title: "Technical writing made easy!"
+authors: [admin] 
+date: 2026-01-30
+format: hugo-md
+toc: true
+toc-depth: 1
+categories: [quarto, scientific-writing, markdown]
+description: "Why I switched from spending hours configuring LaTeX to writing scientific reports in Quarto—and why you should too."
+
+# this is specific to wowchemy
+lastmod: "2026-01-30"
+commentable: true
+authors: [admin] 
+
+---
+
+I always spend as much time formatting and trying out new writing tools as I do writing itself.
+
+"What is there to try out? Simply use Word, right?"
+
+Word is really fine if you want to print out a letter, but once you want to do anything more complex—like writing a scientific report with figures, tables, citations, and cross-references—it quickly becomes a nightmare.
+-- did you Ever tried to align two images side by side with captions in Word?
+
+Scientific writing is done in LaTeX. Apparently even OpenAI agrees:
+[They released a new tool to help with LaTeX writing: https://openai.com/research/latex-assistant](https://openai.com/fr-CA/prism/)], so it must be true.
+
+
+"But I do use a lot of formulas," you say.
+LaTex has much more than formulas. It has one of the best citation management systems out there, it can handle figures and tables with ease, and it produces beautiful documents.
+
+But more importantly, the core advantage of LaTeX is its ability to separate content from formatting.
+Sometimes it's called WYSIWYM (What You See Is What You Mean) as opposed to WYSIWYG (What You See Is What You Get), like in Word.
+
+Now you are maybe already writing your thesis and you do not have time to learn LaTeX.
+
+No problem, there is a solution that gives you the best of both worlds: Quarto.
+
+[Quarto](https://quarto.org/) is a modern scientific and technical publishing system built on Pandoc.
+It's what happens when you ask: *"What if we made scientific writing accessible to everyone, not just people who memorize `\begin{figure}` syntax?"*
+
+Here's why it works:
+
+### 1. **It's Mostly Markdown** (With Familiar Syntax)
+
+Quarto is fundamentally markdown. And markdown isn't some obscure markup language—it's what you already use in WhatsApp, Slack, and Discord:
+
+- `_italic_` → *italic*
+- `**bold**` → **bold**
+- `# Heading 1, ## Heading 2` → Headings
+
+That's it. You're already fluent in 80% of Quarto syntax.
+
+
+
+
+### 2. **It's the Language AI Chatbots Speak**
+
+This is huge and often overlooked: **Markdown is somewhat the native language of modern AI systems.**
+
+When you ask ChatGPT, Claude, or Copilot to help you write, they respond in markdown, which then get's rendered to html in your browser.
+
+Usually you can export a Claude/Perplexity/ChatGPT response to markdown format directly. Or you can just ask them to output in a  markdown block.
+
+No translation layer. No format conversion. It just works.
+
+### 3. **No Formatting Losses**
+
+With Word documents, you inevitably encounter the "formatting gets lost" problem when:
+- Collaborators edit on different systems
+- You convert between file formats
+- You paste content from one document to another
+
+Quarto documents are plain text. They're version-control friendly. They survive format conversions. Your work is future-proof.
+
+## Scientific Features: The plus
+
+### Citations: A Game-Changer for Collaboration
+
+I developed [doi2cite](https://github.com/SilasK/quarto_article), an upgrade that makes citing trivial:
+
+```markdown
+[@https://doi.org/10.1038/nature12373]
+```
+
+That's it. Paste a DOI, Quarto handles the rest, fetching metadata and formatting the citation according to your chosen style.
+
+Yes, In word there are nice citation managers like Mendeley or EndNote, but in my experience it always comes down to one person (usually me) adding the citations to the ref manager and using them in the document.
+
+The option of adding doi, allows each author to add their own citations directly in the text, without the need of a central citation manager.
+
+
+### Figures: Side-by-Side With Captions
+
+Want two figures side by side with proper captions and cross-references?
+
+```markdown
+::: {.columns}
+
+::: {.column width="45%"}
+![Figure 1A: Description of first figure](fig1a.png)
+:::
+
+::: {.column width="45%"}
+![Figure 1B: Description of second figure](fig1b.png)
+:::
+
+:::
+
+See @fig:combined for results.
+```
+
+In Word? You're messing with floating objects, text wrapping, and anchors. In Quarto? You're done.
+
+### Example Repository
+
+I maintain a [complete Quarto article template](https://github.com/SilasK/quarto_article) showing all this in practice. Clone it. Use it. Build on it.
+
+## The Export Story: Word Templates Included
+
+Here's something that surprises people: Quarto doesn't *force* you into a specific output format.
+
+Need to submit a Word document to your manager or a journal? Quarto can use your company's Word template and output a perfectly formatted DOCX file. Your content stays in markdown; the presentation adapts to whatever template you specify.
+
+This means:
+- Researchers write in Quarto (clean, version-controlled, semantic)
+- Managers get a branded Word document (formatted, professional, familiar)
+- No one duplicates content between systems
+
+## My Challenge to You
+
+I'm genuinely issuing this as a challenge: **It is easier to install Quarto and write a scientific document in it than to achieve the same result in Microsoft Word.**
+
+Seriously. Try it:
+1. Install Quarto (5 minutes)
+2. Create a document with two side-by-side figures, proper captions, and auto-numbered references
+3. Compare the time and pain to doing the same in Word
+
+I'll wait.
+
+The complexity people perceive in Quarto isn't in the tool—it's in their expectations that they should already know it. The learning curve is genuinely shallow. The moment you realize you're just writing markdown, something clicks.
+
+## The Broader Point
+
+Scientific writing shouldn't require you to become a LaTeX wizard. It shouldn't demand hours of formatting labor. It shouldn't create collaboration bottlenecks.
+
+Quarto proves that you can have:
+- Semantic, version-controllable source documents
+- Beautiful, reproducible outputs
+- Collaboration features that actually work
+- Simple, intuitive syntax
+- AI-friendly markdown format
+
+All without being a markup language expert.
+
+That's not just an improvement on LaTeX. That's a different paradigm entirely.
+
+---
+
+*Have you tried Quarto? What brought you to scientific writing tools? Share your thoughts in the comments or reach out.*
