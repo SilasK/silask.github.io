@@ -1,6 +1,5 @@
 ---
 title: "Technical writing made easy!"
-authors: [admin] 
 date: 2026-01-30
 format: hugo-md
 toc: true
